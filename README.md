@@ -12,7 +12,7 @@ Game luyện nhớ từ tiếng Anh: nghĩa tiếng Việt rơi xuống, ngườ
 
 ## Luật game mặc định
 
-- 3 mạng; bỏ lỡ mục tiêu chạm đáy mất 1 mạng.
+- Không giới hạn mạng; nhập sai hoặc bỏ lỡ mục tiêu không kết thúc lượt, từ được đưa vào danh sách ôn tập.
 - Mỗi mục tiêu đúng: 100 × hệ số combo điểm.
 - Lần đúng đầu tiên bắt đầu combo ×1; mỗi lần đúng tiếp theo trong 10 giây tăng hệ số thêm 1 và đặt lại đồng hồ 10 giây.
 - Từ đúng được phát âm bằng Web Speech API tiếng Anh. Âm thanh phụ thuộc giọng đọc có sẵn trên trình duyệt/thiết bị.
@@ -129,3 +129,10 @@ Commit file `config.js` lên GitHub. Đợi GitHub Pages deploy xong, truy cập
 - Mỗi khối hiển thị các ô chữ tiếng Anh ở phía trên và nghĩa tiếng Việt ở phía dưới.
 - Click khối để chọn mục tiêu, sau đó gõ từng chữ cái. Chữ đúng bay lên ô tương ứng; chữ sai báo đỏ và không làm tăng tiến độ.
 - Khi hoàn thành chính xác toàn bộ từ, khối phát nổ, cộng điểm và đọc từ tiếng Anh.
+
+## Luật chơi cập nhật (v4)
+
+- Mỗi lượt bắt đầu với một từ; từ kế tiếp xuất hiện khi từ đang rơi đi qua khoảng 2/3 chiều cao khu vực chơi.
+- Không còn giới hạn 3 mạng. Nhập sai hoặc bỏ lỡ từ không kết thúc lượt chơi; các từ đó được đưa vào danh sách ôn tập.
+- Điểm cơ bản mỗi từ đúng là 100, nhân với combo và hệ số tốc độ: Chậm ×1, Bình thường ×2, Nhanh ×3, Rất nhanh ×5.
+- Dùng nút **KẾT THÚC LƯỢT** ở thanh trên của màn chơi để chốt điểm và xem lại từ sai.

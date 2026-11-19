@@ -45,3 +45,5 @@
 .game-over .primary-btn{margin-top:2px}
 @media(max-width:700px){.review-dock{right:6px;top:6px;width:130px;max-height:38%;font-size:9px}.review-head{padding:7px;font-size:8px}.review-list{padding:5px;gap:5px}.review-item{padding:6px}.review-item b{font-size:10px}.review-item span{font-size:9px}.review-dock.review-expanded{width:175px;max-height:68%}.target{max-width:170px;min-width:125px}.letter-slot{width:15px;height:22px;font-size:11px}.target-meaning{font-size:11px}}
 .review-dock.review-expanded{z-index:6}
+
+.finish-btn{padding:6px 10px;font-size:11px;white-space:nowrap}
