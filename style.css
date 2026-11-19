@@ -56,3 +56,12 @@
 .review-dock.review-collapsed{width:145px;max-height:42px;overflow:hidden}
 .review-dock.review-collapsed .review-list{display:none}
 @media(max-width:700px){.hud{grid-template-columns:repeat(2,minmax(0,1fr))}.review-dock.review-collapsed{width:122px;max-height:35px}.review-toggle{width:20px;height:20px}}
+
+/* Mobile Safari: visible input to summon the iOS virtual keyboard */
+.mobile-answer{display:none}
+@media(max-width:700px){
+ .mobile-answer{display:flex;gap:8px;align-items:center;padding:9px;background:#0c1b2a;border-top:1px solid var(--line)}
+ .mobile-answer input{min-width:0;flex:1;font-size:16px;min-height:46px;touch-action:manipulation}
+ .mobile-answer button{min-height:46px;padding:0 13px;border:1px solid #4c8a8b;border-radius:8px;background:#b7ff69;color:#071522;font:900 10px Orbitron;white-space:nowrap}
+ .game-foot{gap:8px;flex-wrap:wrap}
+}
