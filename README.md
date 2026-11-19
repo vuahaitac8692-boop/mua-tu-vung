@@ -122,3 +122,10 @@ Commit file `config.js` lên GitHub. Đợi GitHub Pages deploy xong, truy cập
 - `POST /api/score`
 - `POST /api/admin/login`
 - `POST /api/admin/vocab` (Bearer token)
+
+
+## Cơ chế chơi phiên bản cập nhật
+- Chọn tốc độ rơi trước khi bắt đầu: Chậm, Bình thường, Nhanh hoặc Rất nhanh.
+- Mỗi khối hiển thị các ô chữ tiếng Anh ở phía trên và nghĩa tiếng Việt ở phía dưới.
+- Click khối để chọn mục tiêu, sau đó gõ từng chữ cái. Chữ đúng bay lên ô tương ứng; chữ sai báo đỏ và không làm tăng tiến độ.
+- Khi hoàn thành chính xác toàn bộ từ, khối phát nổ, cộng điểm và đọc từ tiếng Anh.
