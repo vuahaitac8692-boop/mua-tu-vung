@@ -22,3 +22,26 @@
 @keyframes boom{0%{opacity:1;scale:.25}65%{opacity:1;scale:1.5}100%{opacity:0;scale:2.2}}
 @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
 @media(max-width:700px){.target{min-width:125px;max-width:180px}.letter-slot{width:15px;height:22px;font-size:11px}.target-meaning{font-size:11px}.start-panel select{margin-bottom:9px}}
+/* Gameplay update: keyboard input directly into the selected falling block */
+.start-panel select{width:min(290px,90%);margin:7px 0 13px;background:#071421;border:1px solid #29445c;border-radius:8px;color:var(--white);padding:11px;font:600 13px 'Be Vietnam Pro',sans-serif}
+.target{min-width:145px;max-width:235px}
+.letter-slot.clue{border-color:#8bcb5c;background:#203c26;color:#d6ff9f;box-shadow:0 0 8px #b7ff6940}
+.letter-slot.wrong-letter{border-color:var(--red);background:#501d2b;color:#fff;animation:wrongShake .22s linear}
+@keyframes wrongShake{25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+.review-dock{position:absolute;z-index:3;right:10px;top:10px;width:205px;max-height:55%;overflow:auto;border:1px solid #5c5265;border-radius:9px;background:#101b2beF;box-shadow:0 8px 25px #0007;opacity:.94}
+.review-head{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:9px 10px;background:#182a3e;border-bottom:1px solid #30445b;font:10px Orbitron;color:#ffd58a}
+.review-head span{border-radius:20px;background:#66354a;color:#fff;padding:2px 7px}
+.review-list{padding:7px;display:grid;gap:7px}
+.review-list>small{padding:8px;color:#91a7bc;font-size:10px}
+.review-item{display:grid;gap:3px;padding:8px;border-radius:6px;background:#251e2b;border-left:3px solid #ff6684;font-size:11px}
+.review-item b{color:#fff;font:700 12px Orbitron;overflow-wrap:anywhere}
+.review-item span{color:#ffd5df;line-height:1.4}
+.review-item small{color:#a9a0ad;font-size:9px;overflow-wrap:anywhere}
+.review-dock.review-expanded{max-height:75%;width:230px;opacity:1}
+.explosion-fail{color:#ff6d8c;text-shadow:0 0 20px #ff335e}
+.target.failed-hit{border-color:#ff5577;filter:brightness(1.5)}
+.game-over{gap:10px}
+.game-over .ghost-btn{background:#12283b;padding:12px 18px;font-weight:800}
+.game-over .primary-btn{margin-top:2px}
+@media(max-width:700px){.review-dock{right:6px;top:6px;width:130px;max-height:38%;font-size:9px}.review-head{padding:7px;font-size:8px}.review-list{padding:5px;gap:5px}.review-item{padding:6px}.review-item b{font-size:10px}.review-item span{font-size:9px}.review-dock.review-expanded{width:175px;max-height:68%}.target{max-width:170px;min-width:125px}.letter-slot{width:15px;height:22px;font-size:11px}.target-meaning{font-size:11px}}
+.review-dock.review-expanded{z-index:6}
