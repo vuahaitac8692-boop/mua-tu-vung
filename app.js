@@ -29,36 +29,27 @@ function confirmTarget(){if(!running)return;const t=activeTarget()||nearestTarge
 function typeLetter(ch){if(!running)return;let t=activeTarget()||nearestTarget();if(!t){$('feedback').textContent='Chưa có khối mục tiêu. Chờ từ tiếp theo!';return}if(activeTargetId!==t.id)selectTarget(t);const word=[...t.entry.word],next=letterIndices(t.entry.word).find(i=>!t.revealed.has(i)&&!t.typed.has(i));if(next===undefined){$('feedback').textContent='Đã đủ chữ. Nhấn Enter để xác nhận!';return}const expected=word[next];if(ch.toLowerCase()!==expected.toLowerCase()){const slot=t.el.querySelector(`.letter-slot[data-index="${next}"]`);if(slot){slot.textContent=ch.toUpperCase();slot.classList.add('wrong-letter');clearTimeout(inputErrorTimer);inputErrorTimer=setTimeout(()=>{if(slot&&!t.typed.has(next)){slot.textContent='';slot.classList.remove('wrong-letter')}},550)}$('feedback').textContent=`Sai chữ “${ch.toUpperCase()}”. Hãy thử lại chữ tiếp theo.`;return}t.typed.add(next);const slot=t.el.querySelector(`.letter-slot[data-index="${next}"]`);if(slot){slot.textContent=expected;slot.classList.add('filled','letter-pop');slot.classList.remove('wrong-letter');launchLetter(slot,expected);setTimeout(()=>slot.classList.remove('letter-pop'),300)}const complete=letterIndices(t.entry.word).every(i=>t.revealed.has(i)||t.typed.has(i));$('feedback').textContent=complete?'Đã đủ chữ chính xác. Nhấn ENTER để bắn nổ!':`Đúng chữ ${expected.toUpperCase()} · ${t.typed.size+t.revealed.size}/${letterIndices(t.entry.word).length} ô`;}
 function undoLastLetter(){const t=activeTarget()||nearestTarget();if(!t)return;const last=[...t.typed].at(-1);if(last!==undefined){t.typed.delete(last);const slot=t.el.querySelector(`.letter-slot[data-index="${last}"]`);if(slot){slot.textContent='';slot.classList.remove('filled')}}}
 document.addEventListener('keydown',e=>{if(!running)return;if(e.target&&(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)||e.target.isContentEditable))return;if(e.key==='Enter'){e.preventDefault();confirmTarget();return}if(e.key==='Backspace'){e.preventDefault();undoLastLetter();return}if(e.key.length===1&&/[a-z0-9]/i.test(e.key)){e.preventDefault();typeLetter(e.key)}});
-/* iOS Safari can scroll the document after processing an input event, especially
-   when a correct letter updates the target DOM and starts its projectile animation.
-   Remember the game viewport before the keyboard opens, then restore it after Safari's
-   own focus/keyboard scroll has completed. Do not refocus on every character. */
-let iosGameScroll=null,iosRestoreTimers=[];
-function restoreIOSGameScroll(){
- if(iosGameScroll===null)return;
- const x=iosGameScroll.x,y=iosGameScroll.y;
- const restore=()=>{if(iosGameScroll!==null)window.scrollTo({left:x,top:y,behavior:'instant'});};
- requestAnimationFrame(()=>{restore();requestAnimationFrame(restore);});
- iosRestoreTimers.forEach(clearTimeout);
- iosRestoreTimers=[setTimeout(restore,0),setTimeout(restore,60),setTimeout(restore,180)];
-}
-const mobileField=$('mobileLetter');
-mobileField.addEventListener('touchstart',()=>{if(iosGameScroll===null)iosGameScroll={x:window.scrollX,y:window.scrollY};},{passive:true});
-mobileField.addEventListener('pointerdown',()=>{if(iosGameScroll===null)iosGameScroll={x:window.scrollX,y:window.scrollY};},{passive:true});
-mobileField.addEventListener('focus',()=>{if(iosGameScroll===null)iosGameScroll={x:window.scrollX,y:window.scrollY};restoreIOSGameScroll();});
-mobileField.addEventListener('blur',()=>{iosGameScroll=null;iosRestoreTimers.forEach(clearTimeout);});
-mobileField.addEventListener('input',e=>{
- const field=e.target,value=field.value;
+const mobileLetter=$('mobileLetter');
+const mobileConfirm=$('mobileConfirm');
+/* Keep the same input node mounted and focused. Do not call focus() or scrollTo()
+   from the input event: iOS Safari can move the visual viewport and dismiss its keyboard. */
+mobileLetter.addEventListener('input',e=>{
+ const field=e.currentTarget;
+ const value=field.value;
  field.value='';
- if(running){for(const ch of value){if(/[a-z0-9]/i.test(ch))typeLetter(ch)}}
- restoreIOSGameScroll();
+ if(!running)return;
+ for(const ch of value){if(/[a-z0-9]/i.test(ch))typeLetter(ch)}
 });
-mobileField.addEventListener('keydown',e=>{
- if(e.key==='Enter'){e.preventDefault();confirmTarget();e.target.value='';restoreIOSGameScroll();}
- else if(e.key==='Backspace'&&!e.target.value){e.preventDefault();undoLastLetter();restoreIOSGameScroll();}
+mobileLetter.addEventListener('keydown',e=>{
+ if(e.key==='Enter'){e.preventDefault();confirmTarget();e.currentTarget.value=''}
+ else if(e.key==='Backspace'&&!e.currentTarget.value){e.preventDefault();undoLastLetter()}
 });
-$('mobileConfirm').addEventListener('click',()=>{confirmTarget();restoreIOSGameScroll();});
-$('mobileConfirm').addEventListener('click',()=>confirmTarget());
+/* A tap on the confirm button is a user gesture, so restore input focus synchronously
+   with preventScroll. This keeps the iOS keyboard available after confirmation. */
+mobileConfirm.addEventListener('click',()=>{
+ confirmTarget();
+ mobileLetter.focus({preventScroll:true});
+});
 $('startBtn').addEventListener('click',startGame);$('finishGame').addEventListener('click',endGame);$('playAgain').addEventListener('click',()=>{$('startPanel').classList.remove('hidden');$('gameOver').classList.add('hidden');$('playerName').focus()});$('showReview').addEventListener('click',()=>{$('reviewDock').classList.remove('review-collapsed');$('reviewDock').classList.add('review-expanded');$('reviewDock').scrollIntoView({behavior:'smooth',block:'nearest'})});$('toggleReview').addEventListener('click',()=>{$('reviewDock').classList.toggle('review-collapsed');$('toggleReview').textContent=$('reviewDock').classList.contains('review-collapsed')?'＋':'−';$('toggleReview').setAttribute('aria-label',$('reviewDock').classList.contains('review-collapsed')?'Mở rộng danh sách từ cần ôn':'Thu nhỏ danh sách từ cần ôn')});
 async function endGame(){if(!running)return;running=false;cancelAnimationFrame(raf);$('gameStatus').textContent='KẾT THÚC LƯỢT';$('finalLine').textContent=`${$('playerName').value.trim()} · ${score.toLocaleString('vi-VN')} điểm · Combo ${combo} · Bỏ lỡ ${missed} mục tiêu · ${reviewItems.length} từ cần ôn · ${Math.floor(elapsed/60)} phút ${Math.floor(elapsed%60)} giây`;$('gameOver').classList.remove('hidden');$('reviewDock').classList.add('review-expanded');if(score>Number(localStorage.getItem('vr_best_score')||0))localStorage.setItem('vr_best_score',String(score));try{await api('/api/score',{method:'POST',body:JSON.stringify({playerId,playerName:$('playerName').value.trim(),score,combo,duration:Math.round(elapsed),missed,runId:crypto.randomUUID()})});toast('Đã lưu thành tích lên bảng xếp hạng chung!')}catch(e){toast('Chưa đồng bộ được điểm: '+e.message)}}
 async function loadLeaderboard(){if(boardBusy)return;boardBusy=true;$('boardStatus').textContent='Đang tải…';try{const r=await api('/api/leaderboard?limit=50');const rows=r.items||[];$('leaderBody').innerHTML=rows.length?rows.map((x,i)=>`<tr><td class="rank">${i+1}</td><td><b>${esc(x.playerName)}</b></td><td>${Number(x.bestScore).toLocaleString('vi-VN')}</td><td>×${x.bestCombo}</td><td>${x.games}</td></tr>`).join(''):'<tr><td colspan="5">Chưa có thành tích. Hãy là người đầu tiên!</td></tr>';$('boardStatus').textContent=`${rows.length} người chơi · cập nhật trực tiếp`}catch(e){$('boardStatus').textContent='Chưa kết nối máy chủ';$('leaderBody').innerHTML=`<tr><td colspan="5">${esc(e.message)}. Hãy kiểm tra cấu hình Worker.</td></tr>`}finally{boardBusy=false}}
