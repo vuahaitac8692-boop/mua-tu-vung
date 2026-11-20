@@ -3022,5 +3022,11 @@
     "tuLoai": "Danh từ số nhiều",
     "phienAm": "",
     "nghiaTiengViet": "Các chuyên gia"
+  },
+  {
+    "tuVung": "predict",
+    "tuLoai": "Động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Dự đoán"
   }
 ]
