@@ -60,7 +60,16 @@
 /* Mobile Safari: visible input to summon the iOS virtual keyboard */
 .mobile-answer{display:none}
 @media(max-width:700px){
- .mobile-answer{display:flex;gap:8px;align-items:center;padding:9px;background:#0c1b2a;border-top:1px solid var(--line)}
+ /* Keep the focused typing control attached to the viewport. If the player
+    scrolls the game area away from the input, Safari must not scroll back to it
+    on every keystroke because the input remains in a fixed viewport bar. */
+ .mobile-answer{
+  display:flex;gap:8px;align-items:center;
+  position:fixed;left:0;right:0;bottom:0;width:100%;
+  padding:9px 9px calc(9px + env(safe-area-inset-bottom));
+  background:#0c1b2a;border-top:1px solid var(--line);
+  z-index:1000;transform:translateZ(0);contain:layout paint;
+ }
  .mobile-answer input{min-width:0;flex:1;font-size:16px;min-height:46px;touch-action:manipulation;scroll-margin:0;-webkit-user-select:text;user-select:text;overflow-anchor:none}
  .mobile-answer button{min-height:46px;padding:0 13px;border:1px solid #4c8a8b;border-radius:8px;background:#b7ff69;color:#071522;font:900 10px Orbitron;white-space:nowrap}
  .game-foot{gap:8px;flex-wrap:wrap}
@@ -73,4 +82,9 @@
  }
  #gameView{scroll-behavior:auto}
  .game-shell{overflow:hidden}
+}
+
+/* Reserve room for the fixed mobile input bar so it does not cover game controls. */
+@media(max-width:700px){
+ body{padding-bottom:calc(68px + env(safe-area-inset-bottom))}
 }
