@@ -1,0 +1,14 @@
+name = "vocabulary-rain-api"
+main = "worker.js"
+compatibility_date = "2026-11-18"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vocabulary-rain"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+GITHUB_OWNER = "YOUR_GITHUB_USERNAME_OR_ORG"
+GITHUB_REPO = "YOUR_REPOSITORY_NAME"
+GITHUB_BRANCH = "main"
+GITHUB_FILE_PATH = "data/vocabulary.json"

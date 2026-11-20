@@ -1,0 +1,2960 @@
+[
+  {
+    "tuVung": "Excellent",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈeksələnt/",
+    "nghiaTiengViet": "Xuất sắc"
+  },
+  {
+    "tuVung": "Upcoming",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈʌpkʌmɪŋ/",
+    "nghiaTiengViet": "Sắp tới"
+  },
+  {
+    "tuVung": "Exceptionally",
+    "tuLoai": "Trạng từ",
+    "phienAm": "/ɪkˈsepʃənəli/",
+    "nghiaTiengViet": "Nổi bật, ngoại lệ"
+  },
+  {
+    "tuVung": "Display",
+    "tuLoai": "Động từ",
+    "phienAm": "/dɪˈspleɪ/",
+    "nghiaTiengViet": "Trình bày, trưng bày"
+  },
+  {
+    "tuVung": "Misunderstanding",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌmɪsʌndərˈstændɪŋ/",
+    "nghiaTiengViet": "Sự hiểu lầm"
+  },
+  {
+    "tuVung": "Tension",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈtenʃn/",
+    "nghiaTiengViet": "Tình trạng căng thẳng"
+  },
+  {
+    "tuVung": "Political issues",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/pəˈlɪtɪkl ˈɪʃuːz/",
+    "nghiaTiengViet": "Vấn đề chính trị"
+  },
+  {
+    "tuVung": "Look for",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/lʊk fɔːr/",
+    "nghiaTiengViet": "Tìm kiếm"
+  },
+  {
+    "tuVung": "Applicant",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈæplɪkənt/",
+    "nghiaTiengViet": "Ứng viên"
+  },
+  {
+    "tuVung": "Intermission",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌɪntərˈmɪʃn/",
+    "nghiaTiengViet": "Thời gian nghỉ giải lao"
+  },
+  {
+    "tuVung": "Figure skater",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈfɪɡjər skeɪtər/",
+    "nghiaTiengViet": "Vận động viên trượt băng nghệ thuật"
+  },
+  {
+    "tuVung": "Postpone",
+    "tuLoai": "Động từ",
+    "phienAm": "/pəʊˈspəʊn/",
+    "nghiaTiengViet": "Trì hoãn"
+  },
+  {
+    "tuVung": "Schedule",
+    "tuLoai": "Danh từ / Động từ",
+    "phienAm": "/ˈskedʒuːl/",
+    "nghiaTiengViet": "Lịch trình / Lên lịch trình"
+  },
+  {
+    "tuVung": "Have something delivered",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/hæv ˈsʌmθɪŋ dɪˈlɪvərd/",
+    "nghiaTiengViet": "Nhờ/thuê giao hàng đưa cái gì"
+  },
+  {
+    "tuVung": "Place an order",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/pleɪs ən ˈɔːrdər/",
+    "nghiaTiengViet": "Đặt hàng"
+  },
+  {
+    "tuVung": "Out of stock",
+    "tuLoai": "Cụm tính từ",
+    "phienAm": "/aʊt əv stɑːk/",
+    "nghiaTiengViet": "Hết hàng"
+  },
+  {
+    "tuVung": "In stock",
+    "tuLoai": "Cụm tính từ",
+    "phienAm": "/ɪn stɑːk/",
+    "nghiaTiengViet": "Còn hàng"
+  },
+  {
+    "tuVung": "Newly released / New arrivals",
+    "tuLoai": "Cụm từ",
+    "phienAm": "/ˈnuːli rɪˈliːst / nuː əˈraɪvəlz/",
+    "nghiaTiengViet": "Mới phát hành / Hàng mới về"
+  },
+  {
+    "tuVung": "Make a payment / Pay a bill",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/meɪk ə ˈpeɪmənt / peɪ ə bɪl/",
+    "nghiaTiengViet": "Thanh toán / Thanh toán hóa đơn"
+  },
+  {
+    "tuVung": "Get a refund",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ɡet ə ˈriːfʌnd/",
+    "nghiaTiengViet": "Được hoàn trả tiền"
+  },
+  {
+    "tuVung": "Get a discount",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ɡet ə ˈdɪskaʊnt/",
+    "nghiaTiengViet": "Được giảm giá"
+  },
+  {
+    "tuVung": "Exchange",
+    "tuLoai": "Động từ / Danh từ",
+    "phienAm": "/ɪksˈtʃeɪndʒ/",
+    "nghiaTiengViet": "Trao đổi / Sự đổi trả hàng"
+  },
+  {
+    "tuVung": "Promotional coupon",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/prəˈmoʊʃənl ˈkuːpɑːn/",
+    "nghiaTiengViet": "Phiếu giảm giá"
+  },
+  {
+    "tuVung": "Alterations",
+    "tuLoai": "Danh từ (số nhiều)",
+    "phienAm": "/ˌɔːltəˈreɪʃnz/",
+    "nghiaTiengViet": "Sự thay đổi, sửa chữa (quần áo)"
+  },
+  {
+    "tuVung": "Warranty",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈwɔːrənti/",
+    "nghiaTiengViet": "Giấy bảo hành"
+  },
+  {
+    "tuVung": "A cash discount",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ə kæʃ ˈdɪskaʊnt/",
+    "nghiaTiengViet": "Giảm giá khi thanh toán bằng tiền mặt"
+  },
+  {
+    "tuVung": "Make a reservation / Book a table",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/meɪk ə ˌrezərˈveɪʃn / bʊk ə ˈteɪbl/",
+    "nghiaTiengViet": "Đặt chỗ trước / Đặt bàn"
+  },
+  {
+    "tuVung": "Grab a bite to eat",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ɡræb ə baɪt tuː iːt/",
+    "nghiaTiengViet": "Ăn nhanh một món gì đó"
+  },
+  {
+    "tuVung": "Appetizer / Starter",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈæpɪtaɪzər / ˈstɑːrtər/",
+    "nghiaTiengViet": "Món khai vị"
+  },
+  {
+    "tuVung": "Main course",
+    "tuLoai": "Danh từ",
+    "phienAm": "/meɪn kɔːrs/",
+    "nghiaTiengViet": "Món chính"
+  },
+  {
+    "tuVung": "Beverage",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈbevərɪdʒ/",
+    "nghiaTiengViet": "Đồ uống"
+  },
+  {
+    "tuVung": "Steamed",
+    "tuLoai": "Tính từ",
+    "phienAm": "/stiːmd/",
+    "nghiaTiengViet": "Hấp"
+  },
+  {
+    "tuVung": "Grilled",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ɡrɪld/",
+    "nghiaTiengViet": "Nướng"
+  },
+  {
+    "tuVung": "Fully booked",
+    "tuLoai": "Cụm tính từ",
+    "phienAm": "/ˈfʊli bʊkt/",
+    "nghiaTiengViet": "Kín chỗ / Đã đặt hết bàn"
+  },
+  {
+    "tuVung": "Overdone",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˌoʊvərˈdʌn/",
+    "nghiaTiengViet": "Nấu chín quá"
+  },
+  {
+    "tuVung": "Opening hours",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈoʊpənɪŋ ˈaʊərz/",
+    "nghiaTiengViet": "Giờ mở cửa"
+  },
+  {
+    "tuVung": "Ship",
+    "tuLoai": "v",
+    "phienAm": "/ʃɪp/",
+    "nghiaTiengViet": "Vận chuyển"
+  },
+  {
+    "tuVung": "HR Department",
+    "tuLoai": "n",
+    "phienAm": "/ˈeɪtʃ ɑːr dɪˈpɑːrtmənt/",
+    "nghiaTiengViet": "Phòng nhân sự"
+  },
+  {
+    "tuVung": "Construction",
+    "tuLoai": "n",
+    "phienAm": "/kənˈstrʌkʃn/",
+    "nghiaTiengViet": "Công trình xây dựng"
+  },
+  {
+    "tuVung": "Delay",
+    "tuLoai": "v, n",
+    "phienAm": "/dɪˈleɪ/",
+    "nghiaTiengViet": "Trì hoãn / Sự trì hoãn"
+  },
+  {
+    "tuVung": "Locate",
+    "tuLoai": "v",
+    "phienAm": "/ˈləʊkeɪt/",
+    "nghiaTiengViet": "Đặt ở vị trí, tọa lạc"
+  },
+  {
+    "tuVung": "Renovation",
+    "tuLoai": "n",
+    "phienAm": "/ˌrenəˈveɪʃn/",
+    "nghiaTiengViet": "Đổi mới, cải tiến, nâng cấp"
+  },
+  {
+    "tuVung": "Promise",
+    "tuLoai": "v",
+    "phienAm": "/ˈprɑːmɪs/",
+    "nghiaTiengViet": "Hứa"
+  },
+  {
+    "tuVung": "Be in a meeting",
+    "tuLoai": "",
+    "phienAm": "/biː ɪn ə ˈmiː.tɪŋ/",
+    "nghiaTiengViet": "Trong cuộc họp"
+  },
+  {
+    "tuVung": "On sick leave",
+    "tuLoai": "",
+    "phienAm": "/ɒn sɪk liːv/",
+    "nghiaTiengViet": "Nghỉ ốm"
+  },
+  {
+    "tuVung": "Get promoted",
+    "tuLoai": "",
+    "phienAm": "/ɡet prəˈməʊ.tɪd/",
+    "nghiaTiengViet": "Được thăng chức"
+  },
+  {
+    "tuVung": "Sales figures",
+    "tuLoai": "",
+    "phienAm": "/seɪlz ˈfɪɡ.əz/",
+    "nghiaTiengViet": "Doanh số"
+  },
+  {
+    "tuVung": "Hand in / Submit",
+    "tuLoai": "",
+    "phienAm": "/hænd ɪn/ / /səbˈmɪt/",
+    "nghiaTiengViet": "Nộp (báo cáo, tài liệu)"
+  },
+  {
+    "tuVung": "Promotional campaign",
+    "tuLoai": "",
+    "phienAm": "/prəˈməʊ.ʃən.əl kæmˈpeɪn/",
+    "nghiaTiengViet": "Chiến dịch quảng bá"
+  },
+  {
+    "tuVung": "Out of order",
+    "tuLoai": "",
+    "phienAm": "/aʊt əv ˈɔː.dər/",
+    "nghiaTiengViet": "Hỏng hóc (thiết bị)"
+  },
+  {
+    "tuVung": "Audit report",
+    "tuLoai": "",
+    "phienAm": "/ˈɔː.dɪt rɪˈpɔːt/",
+    "nghiaTiengViet": "Báo cáo kiểm toán"
+  },
+  {
+    "tuVung": "Take place / Be held",
+    "tuLoai": "",
+    "phienAm": "/teɪk pleɪs/ / /biː held/",
+    "nghiaTiengViet": "Diễn ra / Được tổ chức"
+  },
+  {
+    "tuVung": "Be scheduled to",
+    "tuLoai": "",
+    "phienAm": "/biː ˈskedʒuːld tuː/",
+    "nghiaTiengViet": "Được sắp xếp lịch"
+  },
+  {
+    "tuVung": "Farewell party",
+    "tuLoai": "",
+    "phienAm": "/ˈfeə.wel ˈpɑː.ti/",
+    "nghiaTiengViet": "Tiệc chia tay"
+  },
+  {
+    "tuVung": "Training session",
+    "tuLoai": "",
+    "phienAm": "/ˈtreɪ.nɪŋ ˈseʃ.ən/",
+    "nghiaTiengViet": "Buổi đào tạo"
+  },
+  {
+    "tuVung": "Keynote speaker",
+    "tuLoai": "",
+    "phienAm": "/ˈkiː.nəʊt ˈspiː.kər/",
+    "nghiaTiengViet": "Người phát biểu chính"
+  },
+  {
+    "tuVung": "Awards banquet",
+    "tuLoai": "",
+    "phienAm": "/əˈwɔːdz ˈbæŋ.kwɪt/",
+    "nghiaTiengViet": "Tiệc trao giải"
+  },
+  {
+    "tuVung": "Paper shredder",
+    "tuLoai": "",
+    "phienAm": "/ˈpeɪ.pər ˈʃred.ər/",
+    "nghiaTiengViet": "Máy hủy tài liệu"
+  },
+  {
+    "tuVung": "Supplies",
+    "tuLoai": "",
+    "phienAm": "/səˈplaɪz/",
+    "nghiaTiengViet": "Vật tư / Đồ dùng văn phòng"
+  },
+  {
+    "tuVung": "Brochure",
+    "tuLoai": "(n)",
+    "phienAm": "/brəʊˈʃʊr/",
+    "nghiaTiengViet": "Quyển quảng cáo, tờ rơi"
+  },
+  {
+    "tuVung": "Proposal",
+    "tuLoai": "(n)",
+    "phienAm": "/prəˈpəʊzl/",
+    "nghiaTiengViet": "Bản đề xuất, sự đề xuất"
+  },
+  {
+    "tuVung": "Utilize",
+    "tuLoai": "(v)",
+    "phienAm": "/ˈjuːtəlaɪz/",
+    "nghiaTiengViet": "Tận dụng, sử dụng"
+  },
+  {
+    "tuVung": "Promotion",
+    "tuLoai": "(n)",
+    "phienAm": "/prəˈmoʊʃn/",
+    "nghiaTiengViet": "Sự quảng bá, chương trình khuyến mãi"
+  },
+  {
+    "tuVung": "Profit",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈprɑːfɪt/",
+    "nghiaTiengViet": "Lợi nhuận"
+  },
+  {
+    "tuVung": "Adjust",
+    "tuLoai": "(v)",
+    "phienAm": "/əˈdʒʌst/",
+    "nghiaTiengViet": "Điều chỉnh, thích nghi"
+  },
+  {
+    "tuVung": "Expectation",
+    "tuLoai": "(n)",
+    "phienAm": "/ˌekspekˈteɪʃn/",
+    "nghiaTiengViet": "Sự kỳ vọng, mong đợi"
+  },
+  {
+    "tuVung": "Assistance",
+    "tuLoai": "(n)",
+    "phienAm": "/əˈsɪstəns/",
+    "nghiaTiengViet": "Sự hỗ trợ, giúp đỡ"
+  },
+  {
+    "tuVung": "Compatible",
+    "tuLoai": "(adj)",
+    "phienAm": "/kəmˈpætəbl/",
+    "nghiaTiengViet": "Phù hợp, tương thích"
+  },
+  {
+    "tuVung": "Boost",
+    "tuLoai": "(v)",
+    "phienAm": "/buːst/",
+    "nghiaTiengViet": "Thúc đẩy, làm tăng lên"
+  },
+  {
+    "tuVung": "Strategy",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈstrætədʒi/",
+    "nghiaTiengViet": "Chiến lược"
+  },
+  {
+    "tuVung": "Launch",
+    "tuLoai": "Động từ / Danh từ (v/n)",
+    "phienAm": "/lɔːntʃ/",
+    "nghiaTiengViet": "Ra mắt, khai trương"
+  },
+  {
+    "tuVung": "Complimentary",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/ˌkɑːmplɪˈmentri/",
+    "nghiaTiengViet": "Miễn phí (tặng kèm)"
+  },
+  {
+    "tuVung": "Evaluation",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ɪˌvæl.juˈeɪ.ʃən/",
+    "nghiaTiengViet": "Sự đánh giá"
+  },
+  {
+    "tuVung": "Advertise",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/ˈæd.və.taɪz/",
+    "nghiaTiengViet": "Quảng cáo"
+  },
+  {
+    "tuVung": "Customer survey",
+    "tuLoai": "Cụm danh từ (n)",
+    "phienAm": "/ˈkʌs.tə.mə ˈsɜː.veɪ/",
+    "nghiaTiengViet": "Khảo sát khách hàng"
+  },
+  {
+    "tuVung": "Gift certificate",
+    "tuLoai": "Cụm danh từ (n)",
+    "phienAm": "/ɡɪft səˈtɪf.ɪ.kət/",
+    "nghiaTiengViet": "Phiếu quà tặng"
+  },
+  {
+    "tuVung": "Demonstration",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˌdem.ənˈstreɪ.ʃən/",
+    "nghiaTiengViet": "Sự thử nghiệm / Biểu diễn sản phẩm"
+  },
+  {
+    "tuVung": "Distribute leaflet",
+    "tuLoai": "Cụm động từ (v)",
+    "phienAm": "/dɪˈstrɪb.juːt ˈliː.flət/",
+    "nghiaTiengViet": "Phát tờ rơi"
+  },
+  {
+    "tuVung": "On the market",
+    "tuLoai": "Cụm giới từ (prep.phr)",
+    "phienAm": "/ɒn ðə ˈmɑː.kɪt/",
+    "nghiaTiengViet": "Có mặt trên thị trường"
+  },
+  {
+    "tuVung": "Publish",
+    "tuLoai": "v",
+    "phienAm": "/ˈpʌblɪʃ/",
+    "nghiaTiengViet": "Xuất bản"
+  },
+  {
+    "tuVung": "Existing",
+    "tuLoai": "adj",
+    "phienAm": "/ɪɡˈzɪstɪŋ/",
+    "nghiaTiengViet": "Hiện có, đang tồn tại"
+  },
+  {
+    "tuVung": "Enclose",
+    "tuLoai": "v",
+    "phienAm": "/ɪnˈkləʊz/",
+    "nghiaTiengViet": "Đính kèm, gửi kèm"
+  },
+  {
+    "tuVung": "Purchase",
+    "tuLoai": "v / n",
+    "phienAm": "/ˈpɜːrtʃəs/",
+    "nghiaTiengViet": "Mua / Việc mua hàng"
+  },
+  {
+    "tuVung": "Protective clothing",
+    "tuLoai": "n.phr",
+    "phienAm": "/prəˈtektɪv ˈkləʊðɪŋ/",
+    "nghiaTiengViet": "Quần áo bảo hộ, đồ bảo hộ"
+  },
+  {
+    "tuVung": "Announce",
+    "tuLoai": "v",
+    "phienAm": "/əˈnaʊns/",
+    "nghiaTiengViet": "Thông báo"
+  },
+  {
+    "tuVung": "Prior to",
+    "tuLoai": "prep",
+    "phienAm": "/ˈpraɪər tuː/",
+    "nghiaTiengViet": "Trước khi"
+  },
+  {
+    "tuVung": "Prove",
+    "tuLoai": "v",
+    "phienAm": "/pruːv/",
+    "nghiaTiengViet": "Chứng minh"
+  },
+  {
+    "tuVung": "Academic",
+    "tuLoai": "adj",
+    "phienAm": "/ˌækəˈdemɪk/",
+    "nghiaTiengViet": "Thuộc về học thuật"
+  },
+  {
+    "tuVung": "Charity",
+    "tuLoai": "n",
+    "phienAm": "/ˈtʃærəti/",
+    "nghiaTiengViet": "Từ thiện"
+  },
+  {
+    "tuVung": "Satisfactory",
+    "tuLoai": "adj",
+    "phienAm": "/ˌsætɪsˈfæktəri/",
+    "nghiaTiengViet": "Thỏa đáng, chấp nhận được"
+  },
+  {
+    "tuVung": "Reasonable",
+    "tuLoai": "adj",
+    "phienAm": "/ˈriːznəbl/",
+    "nghiaTiengViet": "Hợp lý, phải chăng"
+  },
+  {
+    "tuVung": "Borrow",
+    "tuLoai": "v",
+    "phienAm": "/ˈbɑːrroʊ/",
+    "nghiaTiengViet": "Mượn"
+  },
+  {
+    "tuVung": "Report",
+    "tuLoai": "n",
+    "phienAm": "/rɪˈpɔːrt/",
+    "nghiaTiengViet": "Bản báo cáo"
+  },
+  {
+    "tuVung": "Figure out",
+    "tuLoai": "v.phr",
+    "phienAm": "/ˈfɪɡər aʊt/",
+    "nghiaTiengViet": "Tìm ra, hiểu ra, giải quyết"
+  },
+  {
+    "tuVung": "Battery",
+    "tuLoai": "n",
+    "phienAm": "/ˈbætəri/",
+    "nghiaTiengViet": "Bình ắc-quy, pin"
+  },
+  {
+    "tuVung": "Figure",
+    "tuLoai": "n",
+    "phienAm": "/ˈfɪɡər/",
+    "nghiaTiengViet": "Con số, số liệu"
+  },
+  {
+    "tuVung": "Repair",
+    "tuLoai": "v",
+    "phienAm": "/rɪˈper/",
+    "nghiaTiengViet": "Sửa chữa"
+  },
+  {
+    "tuVung": "Copier",
+    "tuLoai": "n",
+    "phienAm": "/ˈkɑːpiər/",
+    "nghiaTiengViet": "Máy photo, máy sao chụp"
+  },
+  {
+    "tuVung": "Ink",
+    "tuLoai": "n",
+    "phienAm": "/ɪŋk/",
+    "nghiaTiengViet": "Mực (mực in, mực viết)"
+  },
+  {
+    "tuVung": "Cartridge",
+    "tuLoai": "n",
+    "phienAm": "/ˈkɑːrtrɪdʒ/",
+    "nghiaTiengViet": "Hộp mực máy in"
+  },
+  {
+    "tuVung": "Cabinet",
+    "tuLoai": "n",
+    "phienAm": "/ˈkæbɪnət/",
+    "nghiaTiengViet": "Tủ có ngăn kéo, tủ tài liệu"
+  },
+  {
+    "tuVung": "Lobby",
+    "tuLoai": "n",
+    "phienAm": "/ˈlɑːbi/",
+    "nghiaTiengViet": "Sảnh chờ, hành lang lớn"
+  },
+  {
+    "tuVung": "Furniture",
+    "tuLoai": "n",
+    "phienAm": "/ˈfɜːrnɪtʃər/",
+    "nghiaTiengViet": "Đồ nội thất"
+  },
+  {
+    "tuVung": "Arrange",
+    "tuLoai": "v",
+    "phienAm": "/əˈreɪndʒ/",
+    "nghiaTiengViet": "Sắp xếp, bố trí"
+  },
+  {
+    "tuVung": "Shift",
+    "tuLoai": "n",
+    "phienAm": "/ʃɪft/",
+    "nghiaTiengViet": "Ca làm việc"
+  },
+  {
+    "tuVung": "Demonstrate",
+    "tuLoai": "v",
+    "phienAm": "/ˈdemənstreɪt/",
+    "nghiaTiengViet": "Trình diễn, hướng dẫn, giải thích, thể hiện"
+  },
+  {
+    "tuVung": "Afford",
+    "tuLoai": "v",
+    "phienAm": "/əˈfɔːrd/",
+    "nghiaTiengViet": "Có đủ khả năng (thường là tài chính/thời gian)"
+  },
+  {
+    "tuVung": "Sign the contract",
+    "tuLoai": "Verb phrase (Cụm động từ)",
+    "phienAm": "/saɪn ðə ˈkɑːntrækt/",
+    "nghiaTiengViet": "Ký kết hợp đồng"
+  },
+  {
+    "tuVung": "Profitable",
+    "tuLoai": "Adjective (Tính từ)",
+    "phienAm": "/ˈprɑːfɪtəbl/",
+    "nghiaTiengViet": "Sinh lời, có lãi, mang lại lợi nhuận"
+  },
+  {
+    "tuVung": "Evaluation form",
+    "tuLoai": "Noun phrase (Cụm danh từ)",
+    "phienAm": "/ɪˌvæljuˈeɪʃn fɔːrm/",
+    "nghiaTiengViet": "Mẫu/phiếu đánh giá"
+  },
+  {
+    "tuVung": "Annual audit",
+    "tuLoai": "Noun phrase (Cụm danh từ)",
+    "phienAm": "/ˈænjuəl ˈɔːdɪt/",
+    "nghiaTiengViet": "Cuộc kiểm toán thường niên/hàng năm"
+  },
+  {
+    "tuVung": "Quarterly report",
+    "tuLoai": "Noun phrase (Cụm danh từ)",
+    "phienAm": "/ˈkwɔːrtərli rɪˈpɔːrt/",
+    "nghiaTiengViet": "Báo cáo hàng quý"
+  },
+  {
+    "tuVung": "Budget proposal",
+    "tuLoai": "Noun phrase (Cụm danh từ)",
+    "phienAm": "/ˈbʌdʒɪt prəˈpoʊzl/",
+    "nghiaTiengViet": "Bản đề xuất ngân sách"
+  },
+  {
+    "tuVung": "Invest in",
+    "tuLoai": "Phrasal verb (Cụm động từ)",
+    "phienAm": "/ɪnˈvest ɪn/",
+    "nghiaTiengViet": "Đầu tư vào"
+  },
+  {
+    "tuVung": "Accountant",
+    "tuLoai": "Noun (Danh từ)",
+    "phienAm": "/əˈkaʊntənt/",
+    "nghiaTiengViet": "Kế toán viên"
+  },
+  {
+    "tuVung": "Designate",
+    "tuLoai": "v",
+    "phienAm": "/ˈdezɪɡneɪt/",
+    "nghiaTiengViet": "Chỉ định, phân công, bố trí"
+  },
+  {
+    "tuVung": "Archive",
+    "tuLoai": "n",
+    "phienAm": "/ˈɑːrkaɪv/",
+    "nghiaTiengViet": "Lưu trữ, tài liệu lưu trữ"
+  },
+  {
+    "tuVung": "Curtail",
+    "tuLoai": "v",
+    "phienAm": "/kɜːrˈteɪl/",
+    "nghiaTiengViet": "Hạn chế, cắt giảm (bằng limit, restrict)"
+  },
+  {
+    "tuVung": "Damage",
+    "tuLoai": "n / v",
+    "phienAm": "/ˈdæmɪdʒ/",
+    "nghiaTiengViet": "Sự thiệt hại / Gây thiệt hại"
+  },
+  {
+    "tuVung": "Fail",
+    "tuLoai": "v",
+    "phienAm": "/feɪl/",
+    "nghiaTiengViet": "Thất bại, không làm được"
+  },
+  {
+    "tuVung": "Attempt",
+    "tuLoai": "v",
+    "phienAm": "/əˈtempt/",
+    "nghiaTiengViet": "Cố gắng, nỗ lực"
+  },
+  {
+    "tuVung": "Opportunity",
+    "tuLoai": "n",
+    "phienAm": "/ˌɑːpərˈtuːnəti/",
+    "nghiaTiengViet": "Cơ hội"
+  },
+  {
+    "tuVung": "Chance",
+    "tuLoai": "n",
+    "phienAm": "/tʃæns/",
+    "nghiaTiengViet": "Cơ hội, sự may rủi"
+  },
+  {
+    "tuVung": "Decision",
+    "tuLoai": "n",
+    "phienAm": "/dɪˈsɪʒn/",
+    "nghiaTiengViet": "Quyết định"
+  },
+  {
+    "tuVung": "Effort",
+    "tuLoai": "n",
+    "phienAm": "/ˈefərt/",
+    "nghiaTiengViet": "Nỗ lực"
+  },
+  {
+    "tuVung": "Way",
+    "tuLoai": "n",
+    "phienAm": "/weɪ/",
+    "nghiaTiengViet": "Cách thức, con đường"
+  },
+  {
+    "tuVung": "Headquarters",
+    "tuLoai": "n",
+    "phienAm": "/ˈhedkwɔːrtərz/",
+    "nghiaTiengViet": "Trụ sở chính"
+  },
+  {
+    "tuVung": "Merge",
+    "tuLoai": "v",
+    "phienAm": "/mɜːrdʒ/",
+    "nghiaTiengViet": "Sáp nhập"
+  },
+  {
+    "tuVung": "Convert",
+    "tuLoai": "v",
+    "phienAm": "/kənˈvɜːrt/",
+    "nghiaTiengViet": "Chuyển đổi, biến đổi"
+  },
+  {
+    "tuVung": "Prepare",
+    "tuLoai": "v",
+    "phienAm": "/prɪˈper/ / /prɪˈpeə(r)/",
+    "nghiaTiengViet": "Chuẩn bị"
+  },
+  {
+    "tuVung": "Proof",
+    "tuLoai": "n",
+    "phienAm": "/pruːf/",
+    "nghiaTiengViet": "Bằng chứng"
+  },
+  {
+    "tuVung": "Fund",
+    "tuLoai": "v",
+    "phienAm": "/fʌnd/",
+    "nghiaTiengViet": "Gây quỹ"
+  },
+  {
+    "tuVung": "Efficient",
+    "tuLoai": "adj",
+    "phienAm": "/ɪˈfɪʃnt/",
+    "nghiaTiengViet": "Hiệu quả"
+  },
+  {
+    "tuVung": "Bankrupt",
+    "tuLoai": "adj / n",
+    "phienAm": "/ˈbæŋkrʌpt/",
+    "nghiaTiengViet": "Phá sản"
+  },
+  {
+    "tuVung": "Consume",
+    "tuLoai": "v",
+    "phienAm": "/kənˈsuːm/",
+    "nghiaTiengViet": "Tiêu tốn, tiêu thụ"
+  },
+  {
+    "tuVung": "Upgrade",
+    "tuLoai": "v",
+    "phienAm": "/ˌʌpˈɡreɪd/",
+    "nghiaTiengViet": "Nâng cấp, cải tiến"
+  },
+  {
+    "tuVung": "Serve",
+    "tuLoai": "v",
+    "phienAm": "/sɜːrv/",
+    "nghiaTiengViet": "Phục vụ"
+  },
+  {
+    "tuVung": "Develop",
+    "tuLoai": "v",
+    "phienAm": "/dɪˈveləp/",
+    "nghiaTiengViet": "Phát triển"
+  },
+  {
+    "tuVung": "Expansion",
+    "tuLoai": "n",
+    "phienAm": "/ɪkˈspænʃn/",
+    "nghiaTiengViet": "Sự mở rộng"
+  },
+  {
+    "tuVung": "Empty",
+    "tuLoai": "adj",
+    "phienAm": "/ˈempti/",
+    "nghiaTiengViet": "Trống rỗng"
+  },
+  {
+    "tuVung": "Full",
+    "tuLoai": "adj",
+    "phienAm": "/fʊl/",
+    "nghiaTiengViet": "Đầy"
+  },
+  {
+    "tuVung": "Probably",
+    "tuLoai": "adv",
+    "phienAm": "/ˈprɑːbəbli/",
+    "nghiaTiengViet": "Có lẽ, có khả năng cao"
+  },
+  {
+    "tuVung": "Likely",
+    "tuLoai": "adj / adv",
+    "phienAm": "/ˈlaɪkli/",
+    "nghiaTiengViet": "Có khả năng xảy ra"
+  },
+  {
+    "tuVung": "Board meeting",
+    "tuLoai": "n.phr",
+    "phienAm": "/bɔːrd ˈmiːtɪŋ/",
+    "nghiaTiengViet": "Cuộc họp hội đồng quản trị"
+  },
+  {
+    "tuVung": "Payment due",
+    "tuLoai": "n.phr",
+    "phienAm": "/ˈpeɪmənt duː/",
+    "nghiaTiengViet": "Hạn thanh toán / Khoản thanh toán đến hạn"
+  },
+  {
+    "tuVung": "Business card",
+    "tuLoai": "n.phr",
+    "phienAm": "/ˈbɪznəs kɑːrd/",
+    "nghiaTiengViet": "Danh thiếp làm việc"
+  },
+  {
+    "tuVung": "Hallway",
+    "tuLoai": "n",
+    "phienAm": "/ˈhɔːlweɪ/",
+    "nghiaTiengViet": "Hành lang"
+  },
+  {
+    "tuVung": "Kitchen appliance",
+    "tuLoai": "n.phr",
+    "phienAm": "/ˈkɪtʃɪn əˈplaɪəns/",
+    "nghiaTiengViet": "Thiết bị nhà bếp"
+  },
+  {
+    "tuVung": "Start",
+    "tuLoai": "Động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Bắt đầu"
+  },
+  {
+    "tuVung": "Begin",
+    "tuLoai": "Động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Bắt đầu"
+  },
+  {
+    "tuVung": "Love",
+    "tuLoai": "Động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Yêu quý"
+  },
+  {
+    "tuVung": "Like",
+    "tuLoai": "Động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Thích"
+  },
+  {
+    "tuVung": "Prefer",
+    "tuLoai": "Động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Thích hơn"
+  },
+  {
+    "tuVung": "Continue",
+    "tuLoai": "Động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Tiếp tục"
+  },
+  {
+    "tuVung": "Stop V-ing",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Dừng hẳn việc đang làm"
+  },
+  {
+    "tuVung": "Stop to V",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Dừng lại để làm việc gì"
+  },
+  {
+    "tuVung": "Remember to V",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Nhớ phải làm gì (hiện tại hoặc tương lai)"
+  },
+  {
+    "tuVung": "Remember V-ing",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Nhớ đã làm gì trong quá khứ"
+  },
+  {
+    "tuVung": "Forget to V",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Quên phải làm gì (hiện tại hoặc tương lai)"
+  },
+  {
+    "tuVung": "Forget V-ing",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Quên đã làm gì trong quá khứ"
+  },
+  {
+    "tuVung": "Regret to V",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Tiếc phải làm gì"
+  },
+  {
+    "tuVung": "Regret V-ing",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Tiếc đã làm gì trong quá khứ"
+  },
+  {
+    "tuVung": "Try to V",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Cố gắng làm gì"
+  },
+  {
+    "tuVung": "Try V-ing",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Thử làm gì"
+  },
+  {
+    "tuVung": "Used to V",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Từng làm gì trong quá khứ (hiện tại không còn thói quen đó)"
+  },
+  {
+    "tuVung": "Be used to V-ing",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Quen với việc làm gì"
+  },
+  {
+    "tuVung": "Get used to V-ing",
+    "tuLoai": "Cấu trúc động từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Dần quen với việc làm gì"
+  },
+  {
+    "tuVung": "Direct traffic",
+    "tuLoai": "(phrasal v)",
+    "phienAm": "/daɪˈrekt ˈtræfɪk/",
+    "nghiaTiengViet": "Điều khiển giao thông"
+  },
+  {
+    "tuVung": "Break down",
+    "tuLoai": "(phrasal v)",
+    "phienAm": "/breɪk daʊn/",
+    "nghiaTiengViet": "Hỏng hóc, chết máy (xe cộ)"
+  },
+  {
+    "tuVung": "Commute",
+    "tuLoai": "(v)",
+    "phienAm": "/kəˈmjuːt/",
+    "nghiaTiengViet": "Di chuyển đi lại (thường xuyên giữa nhà và nơi làm việc)"
+  },
+  {
+    "tuVung": "Give sb a ride",
+    "tuLoai": "(idiom)",
+    "phienAm": "/ɡɪv ˌsʌmbədi ə raɪd/",
+    "nghiaTiengViet": "Cho ai đi nhờ xe"
+  },
+  {
+    "tuVung": "Head for",
+    "tuLoai": "(phrasal v)",
+    "phienAm": "/hed fɔːr/",
+    "nghiaTiengViet": "Đi về hướng, tiến về phía"
+  },
+  {
+    "tuVung": "Drop off",
+    "tuLoai": "(phrasal v)",
+    "phienAm": "/drɒp ɒf/",
+    "nghiaTiengViet": "Thả xuống (trả khách hoặc trả hàng)"
+  },
+  {
+    "tuVung": "Promote",
+    "tuLoai": "(v)",
+    "phienAm": "/prəˈməʊt/",
+    "nghiaTiengViet": "Thăng chức / Quảng bá"
+  },
+  {
+    "tuVung": "Submit",
+    "tuLoai": "(v)",
+    "phienAm": "/səbˈmɪt/",
+    "nghiaTiengViet": "Nộp, đệ trình"
+  },
+  {
+    "tuVung": "Procedure",
+    "tuLoai": "(n)",
+    "phienAm": "/prəˈsiːdʒər/",
+    "nghiaTiengViet": "Quy trình, thủ tục"
+  },
+  {
+    "tuVung": "Handle",
+    "tuLoai": "(v)",
+    "phienAm": "/ˈhændl/",
+    "nghiaTiengViet": "Giải quyết, xử lý"
+  },
+  {
+    "tuVung": "Turn in",
+    "tuLoai": "(phrasal v)",
+    "phienAm": "/tɜːn ɪn/",
+    "nghiaTiengViet": "Nộp (giấy tờ, đơn từ)"
+  },
+  {
+    "tuVung": "Short-staffed",
+    "tuLoai": "(adj)",
+    "phienAm": "/ˌʃɔːt ˈstɑːft/",
+    "nghiaTiengViet": "Thiếu nhân viên"
+  },
+  {
+    "tuVung": "Retreat",
+    "tuLoai": "(n)",
+    "phienAm": "/rɪˈtriːt/",
+    "nghiaTiengViet": "Chuyến nghỉ dưỡng, xả hơi (của công ty)"
+  },
+  {
+    "tuVung": "Satisfied",
+    "tuLoai": "(adj)",
+    "phienAm": "/ˈsætɪsfaɪd/",
+    "nghiaTiengViet": "Hài lòng"
+  },
+  {
+    "tuVung": "Involved",
+    "tuLoai": "(adj)",
+    "phienAm": "/ɪnˈvɒlvd/",
+    "nghiaTiengViet": "Tham gia, liên quan"
+  },
+  {
+    "tuVung": "Accustomed",
+    "tuLoai": "(adj)",
+    "phienAm": "/əˈkʌstəmd/",
+    "nghiaTiengViet": "Quen với"
+  },
+  {
+    "tuVung": "Dedicated",
+    "tuLoai": "(adj)",
+    "phienAm": "/ˈdedɪkeɪtɪd/",
+    "nghiaTiengViet": "Tận tụy, tận tâm"
+  },
+  {
+    "tuVung": "Annual meeting",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈænjuəl ˈmiːtɪŋ/",
+    "nghiaTiengViet": "Cuộc họp thường niên"
+  },
+  {
+    "tuVung": "Sophisticated",
+    "tuLoai": "(adj)",
+    "phienAm": "/səˈfɪstɪkeɪtɪd/",
+    "nghiaTiengViet": "Tinh vi, phức tạp, cao cấp"
+  },
+  {
+    "tuVung": "Complicated",
+    "tuLoai": "(adj)",
+    "phienAm": "/ˈkɒmplɪkeɪtɪd/",
+    "nghiaTiengViet": "Phức tạp"
+  },
+  {
+    "tuVung": "On a regular basis",
+    "tuLoai": "(idiom)",
+    "phienAm": "/ɒn ə ˈreɡjələ ˈbeɪsɪs/",
+    "nghiaTiengViet": "Đều đặn, thường xuyên"
+  },
+  {
+    "tuVung": "Maintenance Department",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈmeɪntənɪns dɪˈpɑːtmənt/",
+    "nghiaTiengViet": "Phòng / Bộ phận bảo trì"
+  },
+  {
+    "tuVung": "Open an account",
+    "tuLoai": "(v.phr)",
+    "phienAm": "/ˈəʊpən ən əˈkaʊnt/",
+    "nghiaTiengViet": "Mở tài khoản (ngân hàng)"
+  },
+  {
+    "tuVung": "Oversee",
+    "tuLoai": "(v)",
+    "phienAm": "/ˌəʊvəˈsiː/",
+    "nghiaTiengViet": "Giám sát"
+  },
+  {
+    "tuVung": "Inspect",
+    "tuLoai": "(v)",
+    "phienAm": "/ɪnˈspekt/",
+    "nghiaTiengViet": "Kiểm tra, thanh tra"
+  },
+  {
+    "tuVung": "Round-trip",
+    "tuLoai": "(adj)",
+    "phienAm": "/ˈraʊnd trɪp/",
+    "nghiaTiengViet": "(Vé) khứ hồi"
+  },
+  {
+    "tuVung": "Plug in",
+    "tuLoai": "(phrasal v)",
+    "phienAm": "/plʌɡ ɪn/",
+    "nghiaTiengViet": "Cắm điện"
+  },
+  {
+    "tuVung": "General Director",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈdʒenrəl daɪˈrektə(r)/",
+    "nghiaTiengViet": "Tổng giám đốc"
+  },
+  {
+    "tuVung": "In charge of",
+    "tuLoai": "(prep.phr)",
+    "phienAm": "/ɪn tʃɑːdʒ əv/",
+    "nghiaTiengViet": "Phụ trách / Chịu trách nhiệm"
+  },
+  {
+    "tuVung": "Pick up",
+    "tuLoai": "(phrasal v)",
+    "phienAm": "/pɪk ʌp/",
+    "nghiaTiengViet": "Đón (ai đó) / Nhặt lên"
+  },
+  {
+    "tuVung": "Office supply",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈɒfɪs səˈplaɪ/",
+    "nghiaTiengViet": "Văn phòng phẩm"
+  },
+  {
+    "tuVung": "Interest rate",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈɪntrəst reɪt/",
+    "nghiaTiengViet": "Lãi suất"
+  },
+  {
+    "tuVung": "Recipe",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈresəpi/",
+    "nghiaTiengViet": "Công thức (nấu ăn)"
+  },
+  {
+    "tuVung": "Ingredient",
+    "tuLoai": "(n)",
+    "phienAm": "/ɪnˈɡriːdiənt/",
+    "nghiaTiengViet": "Nguyên liệu"
+  },
+  {
+    "tuVung": "Press conference",
+    "tuLoai": "(n)",
+    "phienAm": "/pres ˈkɒnfərəns/",
+    "nghiaTiengViet": "Cuộc họp báo"
+  },
+  {
+    "tuVung": "Dozen / A dozen",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈdʌzn / ə ˈdʌzn/",
+    "nghiaTiengViet": "Tá (12 cái/chiếc)"
+  },
+  {
+    "tuVung": "Cost / Expense",
+    "tuLoai": "(n)",
+    "phienAm": "/kɒst / ɪkˈspens/",
+    "nghiaTiengViet": "Chi phí, giá cả"
+  },
+  {
+    "tuVung": "Estimated budget",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈestɪmeɪtɪd ˈbʌdʒɪt/",
+    "nghiaTiengViet": "Ngân sách ước tính"
+  },
+  {
+    "tuVung": "Charity organization",
+    "tuLoai": "(n)",
+    "phienAm": "/ˈtʃærəti ˌɔːɡənaɪˈzeɪʃn/",
+    "nghiaTiengViet": "Tổ chức từ thiện"
+  },
+  {
+    "tuVung": "Multiple / Plenty",
+    "tuLoai": "(adj)",
+    "phienAm": "/ˈmʌltɪpl / ˈplenti/",
+    "nghiaTiengViet": "Nhiều, phong phú"
+  },
+  {
+    "tuVung": "Receptionist",
+    "tuLoai": "Danh từ",
+    "phienAm": "/rɪˈsepʃənɪst/",
+    "nghiaTiengViet": "Lễ tân"
+  },
+  {
+    "tuVung": "Supervisor",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈsuːpəvaɪzə(r)/",
+    "nghiaTiengViet": "Người giám sát, quản lý"
+  },
+  {
+    "tuVung": "Manager",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈmænɪdʒə(r)/",
+    "nghiaTiengViet": "Người quản lý"
+  },
+  {
+    "tuVung": "Secretary",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈsekrətri/",
+    "nghiaTiengViet": "Thư ký"
+  },
+  {
+    "tuVung": "Vice president",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/vaɪs ˈprezɪdənt/",
+    "nghiaTiengViet": "Phó chủ tịch"
+  },
+  {
+    "tuVung": "Sunny",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈsʌni/",
+    "nghiaTiengViet": "Có nắng"
+  },
+  {
+    "tuVung": "Foggy",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈfɒɡi/",
+    "nghiaTiengViet": "Có sương mù"
+  },
+  {
+    "tuVung": "Rainy",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈreɪni/",
+    "nghiaTiengViet": "Có mưa"
+  },
+  {
+    "tuVung": "Snowy",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈsnəʊi/",
+    "nghiaTiengViet": "Có tuyết"
+  },
+  {
+    "tuVung": "Cloudy",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈklaʊdi/",
+    "nghiaTiengViet": "Có mây"
+  },
+  {
+    "tuVung": "Accounting Department",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/əˈkaʊntɪŋ dɪˈpɑːtmənt/",
+    "nghiaTiengViet": "Phòng Kế toán"
+  },
+  {
+    "tuVung": "Personnel Department / HR Department",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˌpɜːsəˈnel dɪˈpɑːtmənt/",
+    "nghiaTiengViet": "Phòng Nhân sự"
+  },
+  {
+    "tuVung": "Purchasing Department",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈpɜːtʃəsɪŋ dɪˈpɑːtmənt/",
+    "nghiaTiengViet": "Phòng Mua hàng / Phòng Vật tư"
+  },
+  {
+    "tuVung": "Sales Department",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/seɪlz dɪˈpɑːtmənt/",
+    "nghiaTiengViet": "Phòng Kinh doanh / Phòng Bán hàng"
+  },
+  {
+    "tuVung": "Deal with",
+    "tuLoai": "Phrasal Verb (Cụm động từ)",
+    "phienAm": "/diːl wɪð/",
+    "nghiaTiengViet": "Xử lý, giải quyết"
+  },
+  {
+    "tuVung": "Donation",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/dəʊˈneɪʃn/",
+    "nghiaTiengViet": "Tài trợ, khoản đóng góp"
+  },
+  {
+    "tuVung": "Disable Disability",
+    "tuLoai": "Tính từ (adj) Danh từ (n)",
+    "phienAm": "/dɪsˈeɪbl/ /ˌdɪsəˈbɪləti/",
+    "nghiaTiengViet": "Khuyết tật, tàn tật Sự khuyết tật, sự tàn tật"
+  },
+  {
+    "tuVung": "Decide",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/dɪˈsaɪd/",
+    "nghiaTiengViet": "Quyết định"
+  },
+  {
+    "tuVung": "Temporarily",
+    "tuLoai": "Trạng từ (adv)",
+    "phienAm": "/ˈtemprərəli/",
+    "nghiaTiengViet": "Tạm thời"
+  },
+  {
+    "tuVung": "Undergo",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/ˌʌndəˈɡəʊ/",
+    "nghiaTiengViet": "Trải qua"
+  },
+  {
+    "tuVung": "Constantly",
+    "tuLoai": "Trạng từ (adv)",
+    "phienAm": "/ˈkɒnstəntli/",
+    "nghiaTiengViet": "Liên tục, luôn luôn"
+  },
+  {
+    "tuVung": "Professionally",
+    "tuLoai": "Trạng từ (adv)",
+    "phienAm": "/prəˈfeʃənəli/",
+    "nghiaTiengViet": "Một cách chuyên nghiệp"
+  },
+  {
+    "tuVung": "Appreciate",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/əˈpriːʃieɪt/",
+    "nghiaTiengViet": "Cảm kích, đánh giá cao"
+  },
+  {
+    "tuVung": "Receive",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/rɪˈsiːv/",
+    "nghiaTiengViet": "Nhận"
+  },
+  {
+    "tuVung": "Announcement",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/əˈnaʊnsmənt/",
+    "nghiaTiengViet": "Thông báo"
+  },
+  {
+    "tuVung": "Porter",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈpɔːtə(r)/",
+    "nghiaTiengViet": "Nhân viên khuân vác (hành lý)"
+  },
+  {
+    "tuVung": "Baggage handler",
+    "tuLoai": "Cụm danh từ (n)",
+    "phienAm": "/ˈbæɡɪdʒ ˈhændlə(r)/",
+    "nghiaTiengViet": "Nhân viên bốc xếp hành lý"
+  },
+  {
+    "tuVung": "Doorman",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈdɔːmən/",
+    "nghiaTiengViet": "Nhân viên gác cửa"
+  },
+  {
+    "tuVung": "Driveway",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈdraɪvweɪ/",
+    "nghiaTiengViet": "Đường lái xe vào nhà/garage"
+  },
+  {
+    "tuVung": "Statue",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈstætʃuː/",
+    "nghiaTiengViet": "Tượng"
+  },
+  {
+    "tuVung": "Drive",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/draɪv/",
+    "nghiaTiengViet": "Lái xe"
+  },
+  {
+    "tuVung": "Driven",
+    "tuLoai": "Động từ / Phân từ (v)",
+    "phienAm": "/ˈdrɪvn/",
+    "nghiaTiengViet": "Dạng quá khứ phân từ của drive"
+  },
+  {
+    "tuVung": "Waitress",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈweɪtrəs/",
+    "nghiaTiengViet": "Nữ phục vụ bàn"
+  },
+  {
+    "tuVung": "Waiter",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈweɪtə(r)/",
+    "nghiaTiengViet": "Nam phục vụ bàn"
+  },
+  {
+    "tuVung": "Pedestrian",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/pəˈdestriən/",
+    "nghiaTiengViet": "Người đi bộ"
+  },
+  {
+    "tuVung": "Train track",
+    "tuLoai": "Cụm danh từ (n)",
+    "phienAm": "/ˈtreɪn træk/",
+    "nghiaTiengViet": "Đường ray xe lửa"
+  },
+  {
+    "tuVung": "Bridge",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/brɪdʒ/",
+    "nghiaTiengViet": "Cây cầu"
+  },
+  {
+    "tuVung": "Intersection",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˌɪntəˈsekʃn/",
+    "nghiaTiengViet": "Giao lộ, ngã tư"
+  },
+  {
+    "tuVung": "Toll gate",
+    "tuLoai": "Cụm danh từ (n)",
+    "phienAm": "/təʊl ɡeɪt/",
+    "nghiaTiengViet": "Trạm thu phí"
+  },
+  {
+    "tuVung": "Station",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈsteɪʃn/",
+    "nghiaTiengViet": "Nhà ga"
+  },
+  {
+    "tuVung": "Truck",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/trʌk/",
+    "nghiaTiengViet": "Xe tải"
+  },
+  {
+    "tuVung": "Grocery store",
+    "tuLoai": "Cụm danh từ (n)",
+    "phienAm": "/ˈɡrəʊsəri stɔː(r)/",
+    "nghiaTiengViet": "Cửa hàng bách hoá"
+  },
+  {
+    "tuVung": "Trainer",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈtreɪnə(r)/",
+    "nghiaTiengViet": "Huấn luyện viên"
+  },
+  {
+    "tuVung": "Treadmill",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ˈtredmɪl/",
+    "nghiaTiengViet": "Máy chạy bộ tập thể dục"
+  },
+  {
+    "tuVung": "Demolish",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/dɪˈmɑːlɪʃ/",
+    "nghiaTiengViet": "Phá hủy"
+  },
+  {
+    "tuVung": "Release",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/riˈliːs/",
+    "nghiaTiengViet": "Phát hành"
+  },
+  {
+    "tuVung": "Investment",
+    "tuLoai": "Danh từ (n)",
+    "phienAm": "/ɪnˈvestmənt/",
+    "nghiaTiengViet": "Sự đầu tư"
+  },
+  {
+    "tuVung": "Annual",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/ˈænjuəl/",
+    "nghiaTiengViet": "Hàng năm"
+  },
+  {
+    "tuVung": "Original",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/əˈrɪdʒənl/",
+    "nghiaTiengViet": "Gốc, ban đầu"
+  },
+  {
+    "tuVung": "Appoint",
+    "tuLoai": "Động từ (v)",
+    "phienAm": "/əˈpɔɪnt/",
+    "nghiaTiengViet": "Bổ nhiệm"
+  },
+  {
+    "tuVung": "Suitable",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/ˈsuːtəbl/",
+    "nghiaTiengViet": "Phù hợp (đi với giới từ for/to)"
+  },
+  {
+    "tuVung": "Conscious",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/ˈkɑːnʃəs/",
+    "nghiaTiengViet": "Có ý thức, nhận thức"
+  },
+  {
+    "tuVung": "Aware",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/əˈwer/",
+    "nghiaTiengViet": "Biết, nhận thức được (Cấu trúc: be aware of)"
+  },
+  {
+    "tuVung": "Responsible",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/rɪˈspɑːnsəbl/",
+    "nghiaTiengViet": "Chịu trách nhiệm (Cấu trúc: to be responsible for sth = to be in charge of)"
+  },
+  {
+    "tuVung": "Occupied",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/ˈɑːkjupaɪd/",
+    "nghiaTiengViet": "Bị chiếm giữ"
+  },
+  {
+    "tuVung": "Unoccupied / Vacant",
+    "tuLoai": "Tính từ (adj)",
+    "phienAm": "/ˌʌnˈɑːkjupaɪd/ / /ˈveɪkənt/",
+    "nghiaTiengViet": "Trống, chưa có người dùng"
+  },
+  {
+    "tuVung": "Confidential",
+    "tuLoai": "adj",
+    "phienAm": "/ˌkɑːnfɪˈdenʃl/",
+    "nghiaTiengViet": "Bảo mật"
+  },
+  {
+    "tuVung": "Electronic device",
+    "tuLoai": "n.p",
+    "phienAm": "/ɪˌlekˈtrɑːnɪk/ /dɪˈvaɪs/",
+    "nghiaTiengViet": "Thiết bị điện tử"
+  },
+  {
+    "tuVung": "Convenient",
+    "tuLoai": "adj",
+    "phienAm": "/kənˈviːniənt/",
+    "nghiaTiengViet": "Tiện lợi"
+  },
+  {
+    "tuVung": "Consistently",
+    "tuLoai": "adv",
+    "phienAm": "/kənˈsɪstəntli/",
+    "nghiaTiengViet": "Liên tục"
+  },
+  {
+    "tuVung": "Productivity",
+    "tuLoai": "n",
+    "phienAm": "/ˌprəʊdʌkˈtɪvəti/",
+    "nghiaTiengViet": "Năng suất"
+  },
+  {
+    "tuVung": "Processed food",
+    "tuLoai": "n",
+    "phienAm": "/ˈprɑːses/ /ˈprəʊses/",
+    "nghiaTiengViet": "Thực phẩm chế biến sẵn"
+  },
+  {
+    "tuVung": "Mutual",
+    "tuLoai": "adj",
+    "phienAm": "/ˈmjuːtʃuəl/",
+    "nghiaTiengViet": "Lẫn nhau, chung"
+  },
+  {
+    "tuVung": "Receipt",
+    "tuLoai": "n",
+    "phienAm": "/rɪˈsiːt/",
+    "nghiaTiengViet": "Biên lai"
+  },
+  {
+    "tuVung": "Hardly",
+    "tuLoai": "adv",
+    "phienAm": "/ˈhɑːrdli/",
+    "nghiaTiengViet": "Hầu như không (ví dụ: hardly believe: khó tin)"
+  },
+  {
+    "tuVung": "Update",
+    "tuLoai": "v",
+    "phienAm": "/ˌʌpˈdeɪt/",
+    "nghiaTiengViet": "Cập nhật"
+  },
+  {
+    "tuVung": "Transition",
+    "tuLoai": "n",
+    "phienAm": "/trænˈzɪʃn/",
+    "nghiaTiengViet": "Chuyển đổi"
+  },
+  {
+    "tuVung": "Transaction",
+    "tuLoai": "n",
+    "phienAm": "/trænˈzækʃn/",
+    "nghiaTiengViet": "Giao dịch"
+  },
+  {
+    "tuVung": "Resolve",
+    "tuLoai": "v",
+    "phienAm": "/rɪˈzɑːlv/ /rɪˈzɒlv/",
+    "nghiaTiengViet": "Giải quyết"
+  },
+  {
+    "tuVung": "Descend",
+    "tuLoai": "v",
+    "phienAm": "/dɪˈsend/",
+    "nghiaTiengViet": "Đi xuống"
+  },
+  {
+    "tuVung": "Put on",
+    "tuLoai": "v",
+    "phienAm": "/pʊt ɑːn/",
+    "nghiaTiengViet": "Mặc vào, đội vào"
+  },
+  {
+    "tuVung": "Try on",
+    "tuLoai": "v",
+    "phienAm": "/traɪ ɑːn/",
+    "nghiaTiengViet": "Thử quần áo/giày dép"
+  },
+  {
+    "tuVung": "Luggage / Baggage / Suitcase",
+    "tuLoai": "n",
+    "phienAm": "/ˈlʌɡɪdʒ/ / /ˈbæɡɪdʒ/ / /ˈsuːtkeɪs/",
+    "nghiaTiengViet": "Hành lý / Vali"
+  },
+  {
+    "tuVung": "Mow the grass / Lawn",
+    "tuLoai": "v / n",
+    "phienAm": "/məʊ ðə ɡræs/ / /lɔːn/",
+    "nghiaTiengViet": "Cắt cỏ / Bãi cỏ"
+  },
+  {
+    "tuVung": "march in steps",
+    "tuLoai": "v.phr",
+    "phienAm": "/mɑːrtʃ ɪn steps/",
+    "nghiaTiengViet": "Đi đều bước"
+  },
+  {
+    "tuVung": "Wrap",
+    "tuLoai": "v",
+    "phienAm": "/ræp/",
+    "nghiaTiengViet": "Gói (quà, đồ đạc)"
+  },
+  {
+    "tuVung": "Dessert",
+    "tuLoai": "n",
+    "phienAm": "/dɪˈzɜːrt/ (phân biệt Desert: /ˈdezərt/)",
+    "nghiaTiengViet": "Món tráng miệng"
+  },
+  {
+    "tuVung": "File cabinet / Filing cabinet / File storage",
+    "tuLoai": "n",
+    "phienAm": "/ˈfaɪl kæbɪnət/ / /ˈfaɪlɪŋ kæbɪnət/ / /ˈfaɪl stɔːrɪdʒ/",
+    "nghiaTiengViet": "Tủ đựng tài liệu, hồ sơ"
+  },
+  {
+    "tuVung": "Laboratory",
+    "tuLoai": "n",
+    "phienAm": "/ˈlæbrətɔːri/",
+    "nghiaTiengViet": "Phòng thí nghiệm"
+  },
+  {
+    "tuVung": "Microscope",
+    "tuLoai": "n",
+    "phienAm": "/ˈmaɪkrəskəʊp/",
+    "nghiaTiengViet": "Kính hiển vi"
+  },
+  {
+    "tuVung": "Examine",
+    "tuLoai": "v",
+    "phienAm": "/ɪɡˈzæmɪn/",
+    "nghiaTiengViet": "Xem xét, kiểm tra, nghiên cứu (từ đồng nghĩa: analyse, review, study, discuss)"
+  },
+  {
+    "tuVung": "vacuum the floor",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ˈvækjuːm ðə flɔːr/",
+    "nghiaTiengViet": "Hút bụi sàn nhà"
+  },
+  {
+    "tuVung": "stir the food",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/stɜːr ðə fuːd/",
+    "nghiaTiengViet": "Khuấy thức ăn"
+  },
+  {
+    "tuVung": "watch TV",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/wɒtʃ ˌtiːˈviː/",
+    "nghiaTiengViet": "Xem tivi"
+  },
+  {
+    "tuVung": "chop a vegetable",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/tʃɑːp ˈvedʒtəblz/",
+    "nghiaTiengViet": "Băm/thái rau củ"
+  },
+  {
+    "tuVung": "stack dishes",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/stæk ˈdɪʃɪz/",
+    "nghiaTiengViet": "Xếp chồng đĩa/chén"
+  },
+  {
+    "tuVung": "cut the grass",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/kʌt ðə ɡrɑːs/",
+    "nghiaTiengViet": "Cắt cỏ"
+  },
+  {
+    "tuVung": "hold a watering can",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/həʊld ə ˈwɔːtərɪŋ kæn/",
+    "nghiaTiengViet": "Cầm bình tưới nước"
+  },
+  {
+    "tuVung": "plant flowers",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/plɑːnt ˈflaʊərz/",
+    "nghiaTiengViet": "Trồng hoa"
+  },
+  {
+    "tuVung": "wipe a counter",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/waɪp ə ˈkaʊntər/",
+    "nghiaTiengViet": "Lau quầy/bàn bếp"
+  },
+  {
+    "tuVung": "look at",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/lʊk æt/",
+    "nghiaTiengViet": "Nhìn vào"
+  },
+  {
+    "tuVung": "roll up blinds",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/rəʊl ʌp blaɪndz/",
+    "nghiaTiengViet": "Cuốn rèm cửa lên"
+  },
+  {
+    "tuVung": "move a chair",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/muːv ə tʃeər/",
+    "nghiaTiengViet": "Di chuyển một chiếc ghế"
+  },
+  {
+    "tuVung": "lean on",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/liːn ɒn/",
+    "nghiaTiengViet": "Tựa vào"
+  },
+  {
+    "tuVung": "give a presentation",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ɡɪv ə ˌpreznˈteɪʃn/",
+    "nghiaTiengViet": "Thuyết trình"
+  },
+  {
+    "tuVung": "take inventory",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/teɪk ˈɪnvəntri/; /teɪk ˈɪnvəntɔːri/",
+    "nghiaTiengViet": "Kiểm kê hàng hóa"
+  },
+  {
+    "tuVung": "typing",
+    "tuLoai": "Danh động từ",
+    "phienAm": "/ˈtaɪpɪŋ/",
+    "nghiaTiengViet": "Đánh máy, gõ máy tính"
+  },
+  {
+    "tuVung": "talking",
+    "tuLoai": "Danh động từ",
+    "phienAm": "/ˈtɔːkɪŋ/",
+    "nghiaTiengViet": "Nói chuyện"
+  },
+  {
+    "tuVung": "pointing",
+    "tuLoai": "Danh động từ",
+    "phienAm": "/ˈpɔɪntɪŋ/",
+    "nghiaTiengViet": "Chỉ tay"
+  },
+  {
+    "tuVung": "writing",
+    "tuLoai": "Danh động từ",
+    "phienAm": "/ˈraɪtɪŋ/",
+    "nghiaTiengViet": "Viết"
+  },
+  {
+    "tuVung": "gesturing",
+    "tuLoai": "Danh động từ",
+    "phienAm": "/ˈdʒestʃərɪŋ/",
+    "nghiaTiengViet": "Điệu bộ bằng tay"
+  },
+  {
+    "tuVung": "Qualified",
+    "tuLoai": "Adj / Exp",
+    "phienAm": "/ˈkwäləˌfīd/",
+    "nghiaTiengViet": "( Be qualified for) Đủ điều kiện, có đủ năng lực"
+  },
+  {
+    "tuVung": "Application",
+    "tuLoai": "Noun",
+    "phienAm": "/ˌæplɪˈkeɪʃn/",
+    "nghiaTiengViet": "Đơn đăng ký, đơn xin việc"
+  },
+  {
+    "tuVung": "Competitor",
+    "tuLoai": "Noun",
+    "phienAm": "/kəmˈpetɪtər/",
+    "nghiaTiengViet": "Đối thủ cạnh tranh"
+  },
+  {
+    "tuVung": "Patient",
+    "tuLoai": "Noun/Adj",
+    "phienAm": "/ˈpeɪʃnt/",
+    "nghiaTiengViet": "Bệnh nhân / Kiên nhẫn"
+  },
+  {
+    "tuVung": "Contract",
+    "tuLoai": "Noun",
+    "phienAm": "/ˈkɑːntrækt/",
+    "nghiaTiengViet": "Hợp đồng"
+  },
+  {
+    "tuVung": "Regulation",
+    "tuLoai": "Noun",
+    "phienAm": "/ˌreɡjuˈleɪʃn/",
+    "nghiaTiengViet": "Quy định, quy tắc"
+  },
+  {
+    "tuVung": "Rent",
+    "tuLoai": "Noun/Verb",
+    "phienAm": "/rent/",
+    "nghiaTiengViet": "Tiền thuê nhà / Thuê"
+  },
+  {
+    "tuVung": "Reference",
+    "tuLoai": "Noun",
+    "phienAm": "/ˈrefərəns/",
+    "nghiaTiengViet": "Thư giới thiệu, sự tham khảo"
+  },
+  {
+    "tuVung": "Defect",
+    "tuLoai": "Noun",
+    "phienAm": "/ˈdiːfekt/",
+    "nghiaTiengViet": "Nhược điểm, lỗi, hỏng hóc"
+  },
+  {
+    "tuVung": "Affordable",
+    "tuLoai": "Adj",
+    "phienAm": "/əˈfɔːrdəbl/",
+    "nghiaTiengViet": "Phải chăng, vừa túi tiền (giá cả)"
+  },
+  {
+    "tuVung": "Complaint",
+    "tuLoai": "Noun",
+    "phienAm": "/kəmˈpleɪnt/",
+    "nghiaTiengViet": "Lời phàn nàn, sự khiếu nại"
+  },
+  {
+    "tuVung": "Relative",
+    "tuLoai": "Noun",
+    "phienAm": "/ˈrelətɪv/",
+    "nghiaTiengViet": "Họ hàng, người thân"
+  },
+  {
+    "tuVung": "Appointment",
+    "tuLoai": "Noun",
+    "phienAm": "/əˈpɔɪntmənt/",
+    "nghiaTiengViet": "Cuộc hẹn, sự bổ nhiệm"
+  },
+  {
+    "tuVung": "Traffic",
+    "tuLoai": "Noun",
+    "phienAm": "/ˈtræfɪk/",
+    "nghiaTiengViet": "Giao thông, lượng xe cộ qua lại"
+  },
+  {
+    "tuVung": "Clear out",
+    "tuLoai": "Verb phrase",
+    "phienAm": "/klɪr aʊt/",
+    "nghiaTiengViet": "Dọn sạch, tống khứ, thanh lý"
+  },
+  {
+    "tuVung": "Merchandise",
+    "tuLoai": "Noun",
+    "phienAm": "/ˈmɜːrtʃəndaɪs/",
+    "nghiaTiengViet": "Hàng hóa"
+  },
+  {
+    "tuVung": "Downtown",
+    "tuLoai": "Noun/Adv",
+    "phienAm": "/ˌdaʊnˈtaʊn/",
+    "nghiaTiengViet": "Khu trung tâm thành phố"
+  },
+  {
+    "tuVung": "excellent skill",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈeksələnt skɪl/",
+    "nghiaTiengViet": "Kỹ năng xuất sắc"
+  },
+  {
+    "tuVung": "upcoming project",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈʌpkʌmɪŋ ˈprɑːdʒekt/",
+    "nghiaTiengViet": "Dự án sắp tới"
+  },
+  {
+    "tuVung": "display hall",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/dɪˈspleɪ hɔːl/",
+    "nghiaTiengViet": "Phòng trưng bày"
+  },
+  {
+    "tuVung": "specialize in",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ˈspeʃəlaɪz ɪn/",
+    "nghiaTiengViet": "Chuyên về, chuyên môn hóa trong"
+  },
+  {
+    "tuVung": "work efficiency",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/wɜːrk ɪˈfɪʃənsi/",
+    "nghiaTiengViet": "Hiệu suất làm việc"
+  },
+  {
+    "tuVung": "reach an agreement",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/riːtʃ ən əˈɡriːmənt/",
+    "nghiaTiengViet": "Đạt được thỏa thuận"
+  },
+  {
+    "tuVung": "Have a reservation / Reserve",
+    "tuLoai": "Cụm động từ / Động từ",
+    "phienAm": "/rɪˈzɜːv/",
+    "nghiaTiengViet": "Đặt trước, đặt chỗ trước"
+  },
+  {
+    "tuVung": "Cancellation",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌkænsəˈleɪʃn/",
+    "nghiaTiengViet": "Sự hủy bỏ"
+  },
+  {
+    "tuVung": "Accommodation",
+    "tuLoai": "Danh từ",
+    "phienAm": "/əˌkɒməˈdeɪʃn/",
+    "nghiaTiengViet": "Chỗ ở"
+  },
+  {
+    "tuVung": "Minibar",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈmɪnibɑːr/",
+    "nghiaTiengViet": "Tủ lạnh nhỏ (trong phòng khách sạn)"
+  },
+  {
+    "tuVung": "Under the name of",
+    "tuLoai": "Cụm giới từ",
+    "phienAm": "/ˈʌndər ðə neɪm ɒv/",
+    "nghiaTiengViet": "Dưới tên là"
+  },
+  {
+    "tuVung": "Within walking distance",
+    "tuLoai": "Cụm từ",
+    "phienAm": "/wɪðˈɪn ˈwɔːkɪŋ ˈdɪstəns/",
+    "nghiaTiengViet": "Khoảng cách có thể đi bộ được (gần)"
+  },
+  {
+    "tuVung": "Book a room",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/bʊk ə ruːm/",
+    "nghiaTiengViet": "Đặt phòng"
+  },
+  {
+    "tuVung": "Be charged",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/biː tʃɑːrdʒd/",
+    "nghiaTiengViet": "Bị tính phí"
+  },
+  {
+    "tuVung": "Continental breakfast",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˌkɒntɪˈnentl ˈbrekfəst/",
+    "nghiaTiengViet": "Bữa sáng kiểu lục địa (kiểu Âu nhẹ nhàng)"
+  },
+  {
+    "tuVung": "Public transportation",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈpʌblɪk ˌtrænspɔːrˈteɪʃn/",
+    "nghiaTiengViet": "Phương tiện giao thông công cộng"
+  },
+  {
+    "tuVung": "Vacancy",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈveɪkənsi/",
+    "nghiaTiengViet": "Chỗ trống (phòng trống)"
+  },
+  {
+    "tuVung": "Kitchenette",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌkɪtʃɪˈnet/",
+    "nghiaTiengViet": "Gian bếp nhỏ"
+  },
+  {
+    "tuVung": "Amenity",
+    "tuLoai": "Danh từ",
+    "phienAm": "/əˈmenəti/",
+    "nghiaTiengViet": "Tiện nghi, cơ sở vật chất"
+  },
+  {
+    "tuVung": "Handicapped facility",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈhændikæpt fəˈsɪləti/",
+    "nghiaTiengViet": "Cơ sở vật chất dành cho người khuyết tật"
+  },
+  {
+    "tuVung": "Passport",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈpɑːspɔːrt/",
+    "nghiaTiengViet": "Hộ chiếu"
+  },
+  {
+    "tuVung": "Metal detector",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈmetl dɪˈtektər/",
+    "nghiaTiengViet": "Máy phát hiện kim loại"
+  },
+  {
+    "tuVung": "Pick up luggage",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/pɪk ʌp ˈlʊɡɪdʒ/",
+    "nghiaTiengViet": "Lấy hành lý"
+  },
+  {
+    "tuVung": "Boarding pass",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈbɔːrdɪŋ pæs/",
+    "nghiaTiengViet": "Thẻ lên máy bay"
+  },
+  {
+    "tuVung": "Check-in bags",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/tʃek ɪn bæɡz/",
+    "nghiaTiengViet": "Ký gửi hành lý"
+  },
+  {
+    "tuVung": "Conveyor belt",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/kənˈveɪər belt/",
+    "nghiaTiengViet": "Băng chuyền (hành lý)"
+  },
+  {
+    "tuVung": "Final destination",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈfaɪnl ˌdestɪˈneɪʃn/",
+    "nghiaTiengViet": "Điểm đến cuối cùng"
+  },
+  {
+    "tuVung": "Baggage claim",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈbæɡɪdʒ kleɪm/",
+    "nghiaTiengViet": "Khu vực nhận hành lý thất lạc / Khu nhận hành lý"
+  },
+  {
+    "tuVung": "Immigration",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌɪmɪˈɡreɪʃn/",
+    "nghiaTiengViet": "Khu vực kiểm tra xuất nhập cảnh"
+  },
+  {
+    "tuVung": "Connecting flight",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/kəˈnektɪŋ flaɪt/",
+    "nghiaTiengViet": "Chuyến bay chuyển tiếp (quá cảnh)"
+  },
+  {
+    "tuVung": "Overweight baggage",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˌəʊvərˈweɪt ˈbæɡɪdʒ/",
+    "nghiaTiengViet": "Hành lý quá khổ / quá cân"
+  },
+  {
+    "tuVung": "Layover",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈleɪəʊvər/",
+    "nghiaTiengViet": "Thời gian dừng quá cảnh"
+  },
+  {
+    "tuVung": "Injury",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈɪndʒəri/",
+    "nghiaTiengViet": "Vết thương, tổn thương"
+  },
+  {
+    "tuVung": "Assistant coordinator",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/əˈsɪstənt kəʊˈɔːrdɪneɪtər/",
+    "nghiaTiengViet": "Trợ lý điều phối"
+  },
+  {
+    "tuVung": "Survey",
+    "tuLoai": "Danh từ / Động từ",
+    "phienAm": "/ˈsɜːrveɪ/",
+    "nghiaTiengViet": "Bản khảo sát / Khảo sát"
+  },
+  {
+    "tuVung": "Conduct",
+    "tuLoai": "Động từ",
+    "phienAm": "/kənˈdʌkt/",
+    "nghiaTiengViet": "Tiến hành, thực hiện"
+  },
+  {
+    "tuVung": "Host",
+    "tuLoai": "Động từ",
+    "phienAm": "/həʊst/",
+    "nghiaTiengViet": "Chủ trì, tổ chức"
+  },
+  {
+    "tuVung": "With regard to",
+    "tuLoai": "Cụm giới từ",
+    "phienAm": "/wɪð rɪˈɡɑːrd tuː/",
+    "nghiaTiengViet": "Liên quan đến"
+  },
+  {
+    "tuVung": "Eligible for",
+    "tuLoai": "Cụm tính từ",
+    "phienAm": "/ˈelɪdʒəbl fɔːr/",
+    "nghiaTiengViet": "Có đủ tư cách, đủ điều kiện..."
+  },
+  {
+    "tuVung": "Suppose",
+    "tuLoai": "Động từ",
+    "phienAm": "/səˈpəʊz/",
+    "nghiaTiengViet": "Cho rằng, nghĩ rằng"
+  },
+  {
+    "tuVung": "Technician",
+    "tuLoai": "Danh từ",
+    "phienAm": "/tekˈnɪʃn/",
+    "nghiaTiengViet": "Kỹ thuật viên"
+  },
+  {
+    "tuVung": "Settle",
+    "tuLoai": "Động từ",
+    "phienAm": "/ˈsetl/",
+    "nghiaTiengViet": "Giải quyết"
+  },
+  {
+    "tuVung": "Dispatch",
+    "tuLoai": "Động từ",
+    "phienAm": "/dɪˈspætʃ/",
+    "nghiaTiengViet": "Cử đi, phái đi"
+  },
+  {
+    "tuVung": "This is ... / My name is ...",
+    "tuLoai": "Cụm từ",
+    "phienAm": "/ðɪs ɪz/ / /maɪ neɪm ɪz/",
+    "nghiaTiengViet": "Đây là ... / Tên tôi là ..."
+  },
+  {
+    "tuVung": "Be available",
+    "tuLoai": "Cụm tính từ",
+    "phienAm": "/biː əˈveɪləbl/",
+    "nghiaTiengViet": "Có mặt, rảnh"
+  },
+  {
+    "tuVung": "Let us know",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/let ʌs nəʊ/",
+    "nghiaTiengViet": "Hãy cho chúng tôi biết"
+  },
+  {
+    "tuVung": "Reach me",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/riːtʃ miː/",
+    "nghiaTiengViet": "Liên hệ với tôi"
+  },
+  {
+    "tuVung": "Be calling about / to V",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/biː ˈkɔːlɪŋ əˈbaʊt/ / /biː ˈkɔːlɪŋ tuː/",
+    "nghiaTiengViet": "Gọi về việc gì / gọi để làm gì"
+  },
+  {
+    "tuVung": "We are sorry to inform you",
+    "tuLoai": "Cụm từ",
+    "phienAm": "/wiː ɑːr ˈsɒri tuː ɪnˈfɔːm juː/",
+    "nghiaTiengViet": "Chúng tôi rất tiếc phải thông báo rằng"
+  },
+  {
+    "tuVung": "At the earliest convenience",
+    "tuLoai": "Cụm trạng từ",
+    "phienAm": "/æt ði ˈɜːliɪst kənˈviːniəns/",
+    "nghiaTiengViet": "Sớm nhất có thể, vào lúc thuận tiện sớm nhất"
+  },
+  {
+    "tuVung": "Leave a message",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/liːv ə ˈmesɪdʒ/",
+    "nghiaTiengViet": "Để lại lời nhắn"
+  },
+  {
+    "tuVung": "Have a conference to attend",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/hæv ə ˈkɒnfərəns tuː əˈtend/",
+    "nghiaTiengViet": "Có một hội nghị cần tham dự"
+  },
+  {
+    "tuVung": "Sorry for the inconvenience",
+    "tuLoai": "Cụm từ",
+    "phienAm": "/ˈsɒri fɔːr ði ˌɪnkənˈviːniəns/",
+    "nghiaTiengViet": "Xin lỗi vì sự bất tiện"
+  },
+  {
+    "tuVung": "Contact me",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ˈkɒntækt miː/",
+    "nghiaTiengViet": "Liên hệ với tôi"
+  },
+  {
+    "tuVung": "Call us at 000",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/kɔːl ʌs æt .../",
+    "nghiaTiengViet": "Gọi cho chúng tôi theo số ..."
+  },
+  {
+    "tuVung": "Attention, please",
+    "tuLoai": "Cụm từ",
+    "phienAm": "/əˈtenʃn pliːz/",
+    "nghiaTiengViet": "Xin hãy chú ý"
+  },
+  {
+    "tuVung": "Be advised to contact",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/biː ədˈvaɪzd tuː ˈkɒntækt/",
+    "nghiaTiengViet": "Được khuyến cáo liên hệ"
+  },
+  {
+    "tuVung": "In a few minutes",
+    "tuLoai": "Cụm trạng từ",
+    "phienAm": "/ɪn ə fjuː ˈmɪnɪts/",
+    "nghiaTiengViet": "Trong vài phút nữa"
+  },
+  {
+    "tuVung": "Welcome aboard",
+    "tuLoai": "Cụm từ",
+    "phienAm": "/ˈwelkəm əˈbɔːd/",
+    "nghiaTiengViet": "Chào mừng quý khách lên tàu hoặc máy bay"
+  },
+  {
+    "tuVung": "Please note that",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/pliːz nəʊt ðæt/",
+    "nghiaTiengViet": "Xin hãy lưu ý rằng"
+  },
+  {
+    "tuVung": "Inclement weather",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ɪnˈklemənt ˈweðər/",
+    "nghiaTiengViet": "Thời tiết khắc nghiệt"
+  },
+  {
+    "tuVung": "Make sure to check",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/meɪk ʃʊər tuː tʃek/",
+    "nghiaTiengViet": "Hãy nhớ kiểm tra"
+  },
+  {
+    "tuVung": "The latest updates",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ðə ˈleɪtɪst ˌʌpˈdeɪts/",
+    "nghiaTiengViet": "Những cập nhật mới nhất"
+  },
+  {
+    "tuVung": "Mechanical problem",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/məˈkænɪkl ˈprɒbləm/",
+    "nghiaTiengViet": "Sự cố máy móc"
+  },
+  {
+    "tuVung": "Be delayed",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/biː dɪˈleɪd/",
+    "nghiaTiengViet": "Bị trì hoãn"
+  },
+  {
+    "tuVung": "Tour guide",
+    "tuLoai": "Danh từ",
+    "phienAm": "/tʊər ɡaɪd/",
+    "nghiaTiengViet": "Hướng dẫn viên du lịch"
+  },
+  {
+    "tuVung": "Promote a product",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/prəˈməʊt ə ˈprɒdʌkt/",
+    "nghiaTiengViet": "Quảng bá sản phẩm"
+  },
+  {
+    "tuVung": "A product launch",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ə ˈprɒdʌkt lɔːntʃ/",
+    "nghiaTiengViet": "Sự kiện ra mắt sản phẩm"
+  },
+  {
+    "tuVung": "Discount coupon",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈdɪskaʊnt ˈkuːpɒn/",
+    "nghiaTiengViet": "Phiếu giảm giá"
+  },
+  {
+    "tuVung": "Cash refund offer",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/kæʃ ˈriːfʌnd ˈɒfər/",
+    "nghiaTiengViet": "Ưu đãi hoàn tiền mặt"
+  },
+  {
+    "tuVung": "Marketing strategy",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈmɑːkɪtɪŋ ˈstrætədʒi/",
+    "nghiaTiengViet": "Chiến lược tiếp thị"
+  },
+  {
+    "tuVung": "Retailer",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈriːteɪlər/",
+    "nghiaTiengViet": "Nhà bán lẻ"
+  },
+  {
+    "tuVung": "Appeal to somebody",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/əˈpiːl tuː ˈsʌmbədi/",
+    "nghiaTiengViet": "Thu hút, hấp dẫn ai"
+  },
+  {
+    "tuVung": "Chain store",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/tʃeɪn stɔːr/",
+    "nghiaTiengViet": "Chuỗi cửa hàng"
+  },
+  {
+    "tuVung": "Advertising agency",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈædvətaɪzɪŋ ˈeɪdʒənsi/",
+    "nghiaTiengViet": "Công ty quảng cáo"
+  },
+  {
+    "tuVung": "Wholesaler",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈhəʊlseɪlər/",
+    "nghiaTiengViet": "Nhà bán buôn"
+  },
+  {
+    "tuVung": "Lay off",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/leɪ ɒf/",
+    "nghiaTiengViet": "Sa thải"
+  },
+  {
+    "tuVung": "Social benefit",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈsəʊʃl ˈbenɪfɪt/",
+    "nghiaTiengViet": "Lợi ích xã hội"
+  },
+  {
+    "tuVung": "Suffer from",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ˈsʌfər frɒm/",
+    "nghiaTiengViet": "Chịu đựng, bị ảnh hưởng bởi"
+  },
+  {
+    "tuVung": "Seek",
+    "tuLoai": "Động từ",
+    "phienAm": "/siːk/",
+    "nghiaTiengViet": "Tìm kiếm"
+  },
+  {
+    "tuVung": "Politics",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈpɑːlətɪks/",
+    "nghiaTiengViet": "Chính trị"
+  },
+  {
+    "tuVung": "Contain",
+    "tuLoai": "Động từ",
+    "phienAm": "/kənˈteɪn/",
+    "nghiaTiengViet": "Bao gồm, chứa"
+  },
+  {
+    "tuVung": "Housekeeper",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈhaʊskiːpər/",
+    "nghiaTiengViet": "Người giúp việc"
+  },
+  {
+    "tuVung": "Workload",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈwɜːrkləʊd/",
+    "nghiaTiengViet": "Khối lượng công việc"
+  },
+  {
+    "tuVung": "Side effect",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/saɪd ɪˈfekt/",
+    "nghiaTiengViet": "Tác dụng phụ, phản ứng phụ"
+  },
+  {
+    "tuVung": "Exhausted",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ɪɡˈzɔːstɪd/",
+    "nghiaTiengViet": "Kiệt quệ, mệt mỏi"
+  },
+  {
+    "tuVung": "Reserve",
+    "tuLoai": "Động từ",
+    "phienAm": "/rɪˈzɜːrv/",
+    "nghiaTiengViet": "Đặt trước"
+  },
+  {
+    "tuVung": "Registration",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌredʒɪˈstreɪʃn/",
+    "nghiaTiengViet": "Sự đăng ký"
+  },
+  {
+    "tuVung": "Inconvenience",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌɪnkənˈviːniəns/",
+    "nghiaTiengViet": "Sự bất tiện"
+  },
+  {
+    "tuVung": "Malfunction",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌmælˈfʌŋkʃn/",
+    "nghiaTiengViet": "Sự cố, trục trặc"
+  },
+  {
+    "tuVung": "Inevitable",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ɪnˈevɪtəbl/",
+    "nghiaTiengViet": "Không thể tránh khỏi"
+  },
+  {
+    "tuVung": "Disability",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌdɪsəˈbɪləti/",
+    "nghiaTiengViet": "Sự tàn tật, mất khả năng lao động"
+  },
+  {
+    "tuVung": "Maintenance",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈmeɪntənəns/",
+    "nghiaTiengViet": "Sự bảo dưỡng, bảo trì"
+  },
+  {
+    "tuVung": "Below freezing",
+    "tuLoai": "Cụm tính từ",
+    "phienAm": "/bɪˈloʊ ˈfriːzɪŋ/",
+    "nghiaTiengViet": "Dưới điểm đóng băng"
+  },
+  {
+    "tuVung": "Drizzle",
+    "tuLoai": "Danh từ / Động từ",
+    "phienAm": "/ˈdrɪzl/",
+    "nghiaTiengViet": "Mưa phùn"
+  },
+  {
+    "tuVung": "Overcast",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈoʊvərkæst/",
+    "nghiaTiengViet": "Âm u, nhiều mây"
+  },
+  {
+    "tuVung": "Heat wave",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈhiːt weɪv/",
+    "nghiaTiengViet": "Sóng nhiệt, đợt nắng nóng"
+  },
+  {
+    "tuVung": "Thunder & lightning",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈθʌndər ənd ˈlaɪtnɪŋ/",
+    "nghiaTiengViet": "Sấm và chớp"
+  },
+  {
+    "tuVung": "Drought",
+    "tuLoai": "Danh từ",
+    "phienAm": "/draʊt/",
+    "nghiaTiengViet": "Hạn hán"
+  },
+  {
+    "tuVung": "Chilly",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈtʃɪli/",
+    "nghiaTiengViet": "Lạnh buốt, lạnh giá"
+  },
+  {
+    "tuVung": "Shower",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈʃaʊər/",
+    "nghiaTiengViet": "Mưa rào"
+  },
+  {
+    "tuVung": "Traffic jam",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈtræfɪk dʒæm/",
+    "nghiaTiengViet": "Tắc đường"
+  },
+  {
+    "tuVung": "Speed limit",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈspiːd lɪmɪt/",
+    "nghiaTiengViet": "Tốc độ giới hạn"
+  },
+  {
+    "tuVung": "I am pleased to...",
+    "tuLoai": "Cụm câu",
+    "phienAm": "/aɪ æm pliːzd tuː/",
+    "nghiaTiengViet": "Tôi rất vui khi..."
+  },
+  {
+    "tuVung": "I am honored to...",
+    "tuLoai": "Cụm câu",
+    "phienAm": "/aɪ æm ˈɑːnərd tuː/",
+    "nghiaTiengViet": "Tôi rất vinh hạnh khi..."
+  },
+  {
+    "tuVung": "Give a big hand to...",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ɡɪv ə bɪɡ hænd tuː/",
+    "nghiaTiengViet": "Nồng nhiệt hoan nghênh..."
+  },
+  {
+    "tuVung": "On behalf of...",
+    "tuLoai": "Cụm giới từ",
+    "phienAm": "/ɑːn bɪˈhæf ʌv/",
+    "nghiaTiengViet": "Thay mặt cho..."
+  },
+  {
+    "tuVung": "Autograph session",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈɔːtəɡræf ˈseʃn/",
+    "nghiaTiengViet": "Buổi ký tặng"
+  },
+  {
+    "tuVung": "Extinct",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ɪkˈstɪŋkt/",
+    "nghiaTiengViet": "Tuyệt chủng"
+  },
+  {
+    "tuVung": "Administrative office",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ədˈmɪnɪstrətɪv ˈɔːfɪs/",
+    "nghiaTiengViet": "Văn phòng hành chính"
+  },
+  {
+    "tuVung": "HR manager",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˌeɪtʃ ˈɑːr ˈmænɪdʒər/",
+    "nghiaTiengViet": "Quản lý nhân sự"
+  },
+  {
+    "tuVung": "Payroll Department",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈpeɪroʊl dɪˈpɑːrtmənt/",
+    "nghiaTiengViet": "Phòng ban tiền lương"
+  },
+  {
+    "tuVung": "Give sb a raise",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ɡɪv ˈsʌmbədi ə reɪz/",
+    "nghiaTiengViet": "Tăng lương cho ai"
+  },
+  {
+    "tuVung": "Be eligible for",
+    "tuLoai": "Cụm tính từ",
+    "phienAm": "/biː ˈelɪdʒəbl fɔːr/",
+    "nghiaTiengViet": "Đủ tư cách, đủ điều kiện cho..."
+  },
+  {
+    "tuVung": "Apologize for",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/əˈpɑːlədʒaɪz fɔːr/",
+    "nghiaTiengViet": "Xin lỗi vì..."
+  },
+  {
+    "tuVung": "Linguist",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈlɪŋɡwɪst/",
+    "nghiaTiengViet": "Nhà ngôn ngữ học"
+  },
+  {
+    "tuVung": "Shuttle bus",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈʃʌtl bʌs/",
+    "nghiaTiengViet": "Xe buýt đưa đón"
+  },
+  {
+    "tuVung": "Harbor",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈhɑːrbər/",
+    "nghiaTiengViet": "Bến cảng"
+  },
+  {
+    "tuVung": "Souvenir",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌsuːvəˈnɪr/",
+    "nghiaTiengViet": "Quà lưu niệm"
+  },
+  {
+    "tuVung": "Capital letter",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈkæpɪtl ˈletər/",
+    "nghiaTiengViet": "Chữ cái viết hoa"
+  },
+  {
+    "tuVung": "Worse",
+    "tuLoai": "Tính từ / Trạng từ",
+    "phienAm": "/wɜːrs/",
+    "nghiaTiengViet": "Tệ hơn, xấu hơn"
+  },
+  {
+    "tuVung": "Auction",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈɔːkʃn/",
+    "nghiaTiengViet": "Cuộc đấu giá"
+  },
+  {
+    "tuVung": "Situation",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌsɪtʃuˈeɪʃn/",
+    "nghiaTiengViet": "Tình huống, hoàn cảnh"
+  },
+  {
+    "tuVung": "Tourist attraction",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˈtʊrɪst əˈtrækʃn/",
+    "nghiaTiengViet": "Điểm thu hút khách du lịch"
+  },
+  {
+    "tuVung": "Prohibited",
+    "tuLoai": "Tính từ",
+    "phienAm": "/prəˈhɪbɪtɪd/",
+    "nghiaTiengViet": "Bị cấm"
+  },
+  {
+    "tuVung": "Strictly",
+    "tuLoai": "Trạng từ",
+    "phienAm": "/ˈstrɪktli/",
+    "nghiaTiengViet": "Một cách nghiêm ngặt"
+  },
+  {
+    "tuVung": "Sailing",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈseɪlɪŋ/",
+    "nghiaTiengViet": "Hoạt động chèo thuyền buồm"
+  },
+  {
+    "tuVung": "Vehicles",
+    "tuLoai": "Danh từ số nhiều",
+    "phienAm": "/ˈviːɪkəlz/",
+    "nghiaTiengViet": "Các phương tiện giao thông"
+  },
+  {
+    "tuVung": "Roadwork",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈroʊdwɜːrk/",
+    "nghiaTiengViet": "Công việc sửa chữa đường"
+  },
+  {
+    "tuVung": "Rainfall",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈreɪnfɔːl/",
+    "nghiaTiengViet": "Lượng mưa"
+  },
+  {
+    "tuVung": "Freeze",
+    "tuLoai": "Động từ",
+    "phienAm": "/friːz/",
+    "nghiaTiengViet": "Đóng băng"
+  },
+  {
+    "tuVung": "Grey sky",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˌɡreɪ ˈskaɪ/",
+    "nghiaTiengViet": "Bầu trời xám xịt"
+  },
+  {
+    "tuVung": "Established",
+    "tuLoai": "Động từ quá khứ / Tính từ",
+    "phienAm": "/ɪˈstæblɪʃt/",
+    "nghiaTiengViet": "Đã thành lập, được thiết lập"
+  },
+  {
+    "tuVung": "Delighted",
+    "tuLoai": "Tính từ",
+    "phienAm": "/dɪˈlaɪtɪd/",
+    "nghiaTiengViet": "Vui mừng, hài lòng"
+  },
+  {
+    "tuVung": "Remind",
+    "tuLoai": "Động từ",
+    "phienAm": "/rɪˈmaɪnd/",
+    "nghiaTiengViet": "Nhắc nhở"
+  },
+  {
+    "tuVung": "Damp",
+    "tuLoai": "Tính từ",
+    "phienAm": "/dæmp/",
+    "nghiaTiengViet": "Ẩm ướt, hơi ẩm"
+  },
+  {
+    "tuVung": "Stay tuned",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ˌsteɪ ˈtuːnd/",
+    "nghiaTiengViet": "Hãy tiếp tục theo dõi"
+  },
+  {
+    "tuVung": "Just in case",
+    "tuLoai": "Cụm trạng từ",
+    "phienAm": "/dʒʌst ɪn ˈkeɪs/",
+    "nghiaTiengViet": "Để phòng khi, đề phòng"
+  },
+  {
+    "tuVung": "Expiration date",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/ˌekspəˈreɪʃn deɪt/",
+    "nghiaTiengViet": "Ngày hết hạn"
+  },
+  {
+    "tuVung": "Implement",
+    "tuLoai": "Động từ / Danh từ",
+    "phienAm": "/ˈɪmplɪment/",
+    "nghiaTiengViet": "Thực thi, triển khai / Công cụ"
+  },
+  {
+    "tuVung": "Expiration",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌekspəˈreɪʃn/",
+    "nghiaTiengViet": "Sự hết hạn"
+  },
+  {
+    "tuVung": "Participation",
+    "tuLoai": "Danh từ",
+    "phienAm": "/pɑːˌtɪsɪˈpeɪʃn/",
+    "nghiaTiengViet": "Sự tham gia"
+  },
+  {
+    "tuVung": "Implementation",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˌɪmplɪmenˈteɪʃn/",
+    "nghiaTiengViet": "Sự thực thi, sự triển khai"
+  },
+  {
+    "tuVung": "Constructive",
+    "tuLoai": "Tính từ",
+    "phienAm": "/kənˈstrʌktɪv/",
+    "nghiaTiengViet": "Mang tính xây dựng"
+  },
+  {
+    "tuVung": "Conduct a survey",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/kənˈdʌkt ə ˈsɜːrveɪ/",
+    "nghiaTiengViet": "Tiến hành khảo sát"
+  },
+  {
+    "tuVung": "Finalize",
+    "tuLoai": "Động từ",
+    "phienAm": "/ˈfaɪnəlaɪz/",
+    "nghiaTiengViet": "Hoàn thiện, chốt lại"
+  },
+  {
+    "tuVung": "Apologize",
+    "tuLoai": "Động từ",
+    "phienAm": "/əˈpɑːlədʒaɪz/",
+    "nghiaTiengViet": "Xin lỗi"
+  },
+  {
+    "tuVung": "Regret",
+    "tuLoai": "Động từ / Danh từ",
+    "phienAm": "/rɪˈɡret/",
+    "nghiaTiengViet": "Hối tiếc, tiếc nuối"
+  },
+  {
+    "tuVung": "Contribute",
+    "tuLoai": "Động từ",
+    "phienAm": "/kənˈtrɪbjuːt/",
+    "nghiaTiengViet": "Đóng góp"
+  },
+  {
+    "tuVung": "Decline",
+    "tuLoai": "Động từ",
+    "phienAm": "/dɪˈklaɪn/",
+    "nghiaTiengViet": "Từ chối"
+  },
+  {
+    "tuVung": "Push",
+    "tuLoai": "Động từ",
+    "phienAm": "/pʊʃ/",
+    "nghiaTiengViet": "Đẩy"
+  },
+  {
+    "tuVung": "Stroll",
+    "tuLoai": "Động từ",
+    "phienAm": "/strəʊl/",
+    "nghiaTiengViet": "Đi dạo, tản bộ"
+  },
+  {
+    "tuVung": "Board",
+    "tuLoai": "Động từ",
+    "phienAm": "/bɔːrd/",
+    "nghiaTiengViet": "Lên tàu, xe, máy bay"
+  },
+  {
+    "tuVung": "Casual",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈkæʒuəl/",
+    "nghiaTiengViet": "Thông thường, không trang trọng (trang phục)"
+  },
+  {
+    "tuVung": "Outfit",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈaʊtfɪt/",
+    "nghiaTiengViet": "Trang phục"
+  },
+  {
+    "tuVung": "Track",
+    "tuLoai": "Danh từ",
+    "phienAm": "/træk/",
+    "nghiaTiengViet": "Đường chạy"
+  },
+  {
+    "tuVung": "Sweat",
+    "tuLoai": "Động từ / Danh từ",
+    "phienAm": "/swet/",
+    "nghiaTiengViet": "Đổ mồ hôi / Mồ hôi"
+  },
+  {
+    "tuVung": "Hood",
+    "tuLoai": "Danh từ",
+    "phienAm": "/hʊd/",
+    "nghiaTiengViet": "Nắp capô xe"
+  },
+  {
+    "tuVung": "Clothes rack",
+    "tuLoai": "Cụm danh từ",
+    "phienAm": "/kloʊðz ræk/",
+    "nghiaTiengViet": "Giá treo quần áo"
+  },
+  {
+    "tuVung": "Pantsuit",
+    "tuLoai": "Danh từ",
+    "phienAm": "/ˈpæntsuːt/",
+    "nghiaTiengViet": "Âu phục (dành cho nữ)"
+  },
+  {
+    "tuVung": "Work out",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/wɜːrk aʊt/",
+    "nghiaTiengViet": "Tập thể hình, tập thể dục"
+  },
+  {
+    "tuVung": "Seed",
+    "tuLoai": "Danh từ",
+    "phienAm": "/siːd/",
+    "nghiaTiengViet": "Hạt, hạt giống"
+  },
+  {
+    "tuVung": "Fall behind",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/fɔːl bɪˈhaɪnd/",
+    "nghiaTiengViet": "Bị tụt lại phía sau, chậm tiến độ"
+  },
+  {
+    "tuVung": "Proceed",
+    "tuLoai": "Động từ",
+    "phienAm": "/prəˈsiːd/",
+    "nghiaTiengViet": "Tiến hành, tiếp tục"
+  },
+  {
+    "tuVung": "Come up with",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/kʌm ʌp wɪð/",
+    "nghiaTiengViet": "Nảy ra ý tưởng, nghĩ ra"
+  },
+  {
+    "tuVung": "Brainstorm",
+    "tuLoai": "Động từ",
+    "phienAm": "/ˈbreɪnstɔːrm/",
+    "nghiaTiengViet": "Động não, suy nghĩ ý tưởng"
+  },
+  {
+    "tuVung": "Go over",
+    "tuLoai": "Cụm động từ",
+    "phienAm": "/ɡoʊ ˈoʊvər/",
+    "nghiaTiengViet": "Xem xét kỹ, rà soát lại"
+  },
+  {
+    "tuVung": "Urgent",
+    "tuLoai": "Tính từ",
+    "phienAm": "/ˈɜːrdʒənt/",
+    "nghiaTiengViet": "Khẩn cấp"
+  }
+]
