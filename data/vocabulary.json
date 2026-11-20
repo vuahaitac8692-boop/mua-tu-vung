@@ -3040,5 +3040,11 @@
     "tuLoai": "Danh từ",
     "phienAm": "",
     "nghiaTiengViet": "Điều phối viên"
+  },
+  {
+    "tuVung": "instructor",
+    "tuLoai": "Danh từ",
+    "phienAm": "",
+    "nghiaTiengViet": "Người hướng dẫn"
   }
 ]
