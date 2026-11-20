@@ -17,45 +17,62 @@ function selectTarget(t){if(!t)return;activeTargetId=t.id;targets.forEach(x=>x.e
 function activeTarget(){return targets.find(t=>t.id===activeTargetId)||null}
 function nearestTarget(){return targets.slice().sort((a,b)=>b.y-a.y)[0]||null}
 function lanePositions(){const w=$('arena').clientWidth;return w<600?[22,78]:w<900?[17,50,83]:[12,38,62,88]}
-function getComboDuration(){const seconds=fallSpeed<=9?20:fallSpeed<=16?15:fallSpeed<=27?12:10;return Math.max(10,seconds)}
-function spawn(){if(!running||targets.length>=4||!vocab.length)return null;const lanes=lanePositions();const open=lanes.filter(x=>!targets.some(t=>Math.abs(t.x-x)<2&&t.y<175));if(!open.length)return null;const lane=open[Math.floor(Math.random()*open.length)];const entry=vocab[Math.floor(Math.random()*vocab.length)];const id=crypto.randomUUID(),el=document.createElement('div');const indices=letterIndices(entry.word),revealed=new Set();const hintPercent=Math.max(10,Math.min(50,Number($('hintPercent').value)||30));const hints=Math.min(Math.max(0,indices.length-1),Math.round(indices.length*hintPercent/100));const shuffled=indices.slice().sort(()=>Math.random()-.5);shuffled.slice(0,hints).forEach(i=>revealed.add(i));el.className='target';el.innerHTML=targetMarkup(entry,revealed);el.style.left=lane+'%';el.addEventListener('click',()=>selectTarget(targets.find(t=>t.id===id)));$('targets').appendChild(el);const t={id,entry,y:-125,x:lane,speed:fallSpeed,revealed,typed:new Set(),el};targets.push(t);lastSpawnedTarget=t;if(!activeTarget())selectTarget(t);updateHUD();return t}
-function startGame(){const name=$('playerName').value.trim();if(name.length<2){toast('Tên người chơi cần ít nhất 2 ký tự.');$('playerName').focus();return}if(vocab.length<5){toast('Kho từ vựng cần ít nhất 5 từ.');return}score=0;combo=0;comboUntil=0;missed=0;elapsed=0;fallSpeed=Number($('fallSpeed').value)||9;$('playerName').blur();reviewItems=[];renderReview();targets.forEach(t=>t.el.remove());targets=[];lastSpawnedTarget=null;activeTargetId=null;$('projectiles').innerHTML='';running=true;lastFrame=performance.now();$('playerName').blur();$('startPanel').classList.add('hidden');$('gameOver').classList.add('hidden');$('reviewDock').classList.remove('review-expanded','review-collapsed');$('toggleReview').textContent='−';$('gameStatus').textContent='ĐANG CHIẾN ĐẤU · '+$('fallSpeed').selectedOptions[0].textContent.toUpperCase();$('feedback').textContent='Gõ chữ trực tiếp. Enter để xác nhận. Sai không bị giới hạn lượt.';updateHUD();cancelAnimationFrame(raf);spawn();raf=requestAnimationFrame(loop)}
-function loop(ts){if(!running)return;const dt=Math.min(.05,(ts-lastFrame)/1000);lastFrame=ts;elapsed+=dt;if(elapsed>=600){elapsed=600;updateHUD();endGame();return}const arenaHeight=$('arena').clientHeight;const canSpawn=!targets.length||(lastSpawnedTarget&&!lastSpawnedTarget.spawnedNext&&lastSpawnedTarget.y>=arenaHeight*2/3);if(canSpawn&&targets.length<2){if(lastSpawnedTarget)lastSpawnedTarget.spawnedNext=true;spawn();}if(combo&&Date.now()>comboUntil){combo=0;updateHUD();$('feedback').textContent='Combo đã hết thời gian. Hãy bắt đầu chuỗi mới!'}for(let i=targets.length-1;i>=0;i--){const t=targets[i];t.y+=t.speed*dt;t.el.style.top=t.y+'px';if(t.y>arenaHeight-118){addReview(t);t.el.remove();targets.splice(i,1);if(activeTargetId===t.id){activeTargetId=null;selectTarget(nearestTarget())}missed++;combo=0;$('feedback').textContent='Từ đã chạm đáy và được chuyển vào Từ cần ôn. Bạn vẫn có thể chơi tiếp.';updateHUD()}}updateHUD();raf=requestAnimationFrame(loop)}
-
-/* ĐÃ SỬA: kiểm tra phần tử tồn tại trước khi gọi getBoundingClientRect */
-function launchLetter(slot,ch){
- const arena=$('arena');
- const ship=document.querySelector('.ship');
- const projectiles=$('projectiles');
- if(!arena||!ship||!slot||!projectiles)return;
- const from=ship.getBoundingClientRect();
- const to=slot.getBoundingClientRect();
- const base=arena.getBoundingClientRect();
- const projectile=document.createElement('span');
- projectile.className='letter-projectile';
- projectile.textContent=ch;
- projectile.style.left=(from.left+from.width/2-base.left)+'px';
- projectile.style.top=(from.top-base.top+5)+'px';
- projectiles.appendChild(projectile);
- const dx=to.left+to.width/2-(from.left+from.width/2);
- const dy=to.top+to.height/2-(from.top+5);
- const anim=projectile.animate([
-  {transform:'translate(0,0) scale(1)',opacity:1},
-  {transform:`translate(${dx}px,${dy}px) scale(.7)`,opacity:.2}
- ],{duration:280,easing:'cubic-bezier(.2,.8,.2,1)'});
- anim.onfinish=()=>projectile.remove();
- anim.oncancel=()=>projectile.remove();
+function getComboDuration(){/* Seconds by falling-speed difficulty; never below 10s. */
+ const seconds=fallSpeed<=9?20:fallSpeed<=16?15:fallSpeed<=27?12:10;
+ return Math.max(10,seconds);
 }
-function explodeVisual(t,success){const arena=$('arena');if(!arena||!t?.el)return;const rect=t.el.getBoundingClientRect(),base=arena.getBoundingClientRect(),boom=document.createElement('div');boom.className='explosion'+(success?'':' explosion-fail');boom.textContent=success?'✦':'✕';boom.style.left=(rect.left+rect.width/2-base.left)+'px';boom.style.top=(rect.top+rect.height/2-base.top)+'px';$('targets').appendChild(boom);setTimeout(()=>boom.remove(),550);t.el.classList.add(success?'hit':'failed-hit');setTimeout(()=>t.el.remove(),250)}
+function spawn(){if(!running||targets.length>=4||!vocab.length)return null;const lanes=lanePositions();const open=lanes.filter(x=>!targets.some(t=>Math.abs(t.x-x)<2&&t.y<175));if(!open.length)return null;const lane=open[Math.floor(Math.random()*open.length)];const entry=vocab[Math.floor(Math.random()*vocab.length)];const id=crypto.randomUUID(),el=document.createElement('div');const indices=letterIndices(entry.word),revealed=new Set();const hintPercent=Math.max(10,Math.min(50,Number($('hintPercent').value)||30));const hints=Math.min(Math.max(0,indices.length-1),Math.round(indices.length*hintPercent/100));const shuffled=indices.slice().sort(()=>Math.random()-.5);shuffled.slice(0,hints).forEach(i=>revealed.add(i));el.className='target';el.innerHTML=targetMarkup(entry,revealed);el.style.left=lane+'%';el.addEventListener('click',()=>selectTarget(targets.find(t=>t.id===id)));$('targets').appendChild(el);const t={id,entry,y:-125,x:lane,speed:fallSpeed,revealed,typed:new Set(),el,comboDeadline:0};targets.push(t);lastSpawnedTarget=t;if(!activeTarget())selectTarget(t);updateHUD();return t}
+function startGame(){const name=$('playerName').value.trim();if(name.length<2){toast('Tên người chơi cần ít nhất 2 ký tự.');$('playerName').focus();return}if(vocab.length<5){toast('Kho từ vựng cần ít nhất 5 từ.');return}score=0;combo=0;comboUntil=0;missed=0;elapsed=0;fallSpeed=Number($('fallSpeed').value)||9;$('playerName').blur();reviewItems=[];renderReview();targets.forEach(t=>t.el.remove());targets=[];lastSpawnedTarget=null;activeTargetId=null;$('projectiles').innerHTML='';running=true;lastFrame=performance.now();$('playerName').blur();$('startPanel').classList.add('hidden');$('gameOver').classList.add('hidden');$('reviewDock').classList.remove('review-expanded','review-collapsed');$('toggleReview').textContent='−';$('gameStatus').textContent='ĐANG CHIẾN ĐẤU · '+$('fallSpeed').selectedOptions[0].textContent.toUpperCase();$('feedback').textContent='Gõ chữ trực tiếp. Enter để xác nhận. Sai không bị giới hạn lượt.';updateHUD();cancelAnimationFrame(raf);spawn();raf=requestAnimationFrame(loop)}
+function loop(ts){if(!running)return;const dt=Math.min(.05,(ts-lastFrame)/1000);lastFrame=ts;elapsed+=dt;if(elapsed>=600){elapsed=600;updateHUD();endGame();return}const arenaHeight=$('arena').clientHeight;const canSpawn=!targets.length||(lastSpawnedTarget&&!lastSpawnedTarget.spawnedNext&&lastSpawnedTarget.y>=arenaHeight*2/3);if(canSpawn&&targets.length<2){if(lastSpawnedTarget)lastSpawnedTarget.spawnedNext=true;spawn();}if(combo&&Date.now()>comboUntil){combo=0;updateHUD();$('feedback').textContent='Combo đã hết thời gian. Hãy bắt đầu chuỗi mới!'}for(let i=targets.length-1;i>=0;i--){const t=targets[i];t.y+=t.speed*dt;t.el.style.top=t.y+'px';
+// Bắt đầu thời gian combo khi toàn bộ block đã nằm trong vùng chơi.
+if(!t.comboDeadline&&t.y>=0&&t.y+t.el.offsetHeight<=arenaHeight){
+  t.comboDeadline=Date.now()+getComboDuration()*1000;
+  if(combo>0)comboUntil=t.comboDeadline;
+}
+if(t.y>arenaHeight-118){addReview(t);t.el.remove();targets.splice(i,1);if(activeTargetId===t.id){activeTargetId=null;selectTarget(nearestTarget())}missed++;combo=0;$('feedback').textContent='Từ đã chạm đáy và được chuyển vào Từ cần ôn. Bạn vẫn có thể chơi tiếp.';updateHUD()}}updateHUD();raf=requestAnimationFrame(loop)}
+function launchLetter(slot,ch){
+  const arena=$('arena');
+  const ship=$('.ship');
+  const projectiles=$('projectiles');
+
+  // Bo qua hieu ung neu thieu phan tu giao dien; khong anh huong nhap chu.
+  if(!arena||!ship||!slot||!projectiles||!slot.isConnected||!ship.isConnected||!arena.isConnected)return;
+
+  const from=ship.getBoundingClientRect();
+  const to=slot.getBoundingClientRect();
+  const base=arena.getBoundingClientRect();
+  const projectile=document.createElement('span');
+  projectile.className='letter-projectile';
+  projectile.textContent=ch;
+  projectile.style.left=(from.left+from.width/2-base.left)+'px';
+  projectile.style.top=(from.top-base.top+5)+'px';
+  projectiles.appendChild(projectile);
+
+  const dx=to.left+to.width/2-(from.left+from.width/2);
+  const dy=to.top+to.height/2-(from.top+5);
+  const anim=projectile.animate([
+    {transform:'translate(0,0) scale(1)',opacity:1},
+    {transform:`translate(${dx}px,${dy}px) scale(.7)`,opacity:.2}
+  ],{duration:280,easing:'cubic-bezier(.2,.8,.2,1)'});
+  anim.onfinish=()=>projectile.remove();
+  anim.oncancel=()=>projectile.remove();
+}
+function explodeVisual(t,success){const rect=t.el.getBoundingClientRect(),base=$('arena').getBoundingClientRect(),boom=document.createElement('div');boom.className='explosion'+(success?'':' explosion-fail');boom.textContent=success?'✦':'✕';boom.style.left=(rect.left+rect.width/2-base.left)+'px';boom.style.top=(rect.top+rect.height/2-base.top)+'px';$('targets').appendChild(boom);setTimeout(()=>boom.remove(),550);t.el.classList.add(success?'hit':'failed-hit');setTimeout(()=>t.el.remove(),250)}
 function removeTarget(t){targets=targets.filter(x=>x.id!==t.id);if(activeTargetId===t.id){activeTargetId=null;const next=nearestTarget();if(next)selectTarget(next)}}
 function renderReview(){ $('reviewCount').textContent=reviewItems.length; $('reviewList').innerHTML=reviewItems.length?reviewItems.slice().reverse().map((r,i)=>`<div class="review-item"><b>${esc(r.word)}</b><span>${esc(r.meaning)}</span><small>Đã nhập: ${esc(r.typed||'—')}</small></div>`).join(''):'<small>Chưa có từ sai</small>' }
 function addReview(t){const word=[...t.entry.word];const typed=word.map((c,i)=>t.typed.has(i)?c:'_').join('');reviewItems.push({word:t.entry.word,meaning:t.entry.meaning,typed});renderReview()}
-function confirmTarget(){if(!running)return;const t=activeTarget()||nearestTarget();if(!t){$('feedback').textContent='Chưa có khối mục tiêu. Chờ từ tiếp theo!';return}selectTarget(t);const all=letterIndices(t.entry.word);const complete=all.every(i=>t.revealed.has(i)||t.typed.has(i));if(complete){explodeVisual(t,true);removeTarget(t);combo=Date.now()<=comboUntil?combo+1:1;comboUntil=Date.now()+getComboDuration()*1000;const speedMultiplier=fallSpeed<=9?1:fallSpeed<=16?2:fallSpeed<=27?3:5;const earned=100*combo*speedMultiplier;score+=earned;speak(t.entry.word);$('feedback').textContent=`BOOM! ${t.entry.word} · +${earned} điểm (tốc độ ×${speedMultiplier})`;updateHUD()}else{addReview(t);explodeVisual(t,false);removeTarget(t);combo=0;missed++;$('feedback').textContent=`Chưa hoàn thành “${t.entry.word}”. Đã đưa vào Từ cần ôn. Không giới hạn số lần sai.`;updateHUD()}}
-function typeLetter(ch){if(!running)return;let t=activeTarget()||nearestTarget();if(!t){$('feedback').textContent='Chưa có khối mục tiêu. Chờ từ tiếp theo!';return}if(activeTargetId!==t.id)selectTarget(t);const word=[...t.entry.word],next=letterIndices(t.entry.word).find(i=>!t.revealed.has(i)&&!t.typed.has(i));if(next===undefined){$('feedback').textContent='Đã đủ chữ. Nhấn Enter để xác nhận!';return}const expected=word[next];if(ch.toLowerCase()!==expected.toLowerCase()){const slot=t.el.querySelector(`.letter-slot[data-index="${next}"]`);if(slot){slot.textContent=ch.toUpperCase();slot.classList.add('wrong-letter');clearTimeout(inputErrorTimer);inputErrorTimer=setTimeout(()=>{if(slot&&!t.typed.has(next)){slot.textContent='';slot.classList.remove('wrong-letter')}},550)}$('feedback').textContent=`Sai chữ “${ch.toUpperCase()}”. Hãy thử lại chữ tiếp theo.`;return}t.typed.add(next);const slot=t.el.querySelector(`.letter-slot[data-index="${next}"]`);if(slot){slot.textContent=expected;slot.classList.add('filled','letter-pop');slot.classList.remove('wrong-letter');if(!window.matchMedia('(max-width:700px)').matches)launchLetter(slot,expected);setTimeout(()=>slot.classList.remove('letter-pop'),300)}const complete=letterIndices(t.entry.word).every(i=>t.revealed.has(i)||t.typed.has(i));$('feedback').textContent=complete?'Đã đủ chữ chính xác. Nhấn ENTER để bắn nổ!':`Đúng chữ ${expected.toUpperCase()} · ${t.typed.size+t.revealed.size}/${letterIndices(t.entry.word).length} ô`;}
+function confirmTarget(){if(!running)return;const t=activeTarget()||nearestTarget();if(!t){$('feedback').textContent='Chưa có khối mục tiêu. Chờ từ tiếp theo!';return}selectTarget(t);const all=letterIndices(t.entry.word);const complete=all.every(i=>t.revealed.has(i)||t.typed.has(i));if(complete){explodeVisual(t,true);removeTarget(t);combo=(combo>0&&Date.now()<=comboUntil&&t.comboDeadline&&Date.now()<=t.comboDeadline)?combo+1:1;comboUntil=t.comboDeadline||0;const speedMultiplier=fallSpeed<=9?1:fallSpeed<=16?2:fallSpeed<=27?3:5;const earned=100*combo*speedMultiplier;score+=earned;speak(t.entry.word);$('feedback').textContent=`BOOM! ${t.entry.word} · +${earned} điểm (tốc độ ×${speedMultiplier})`;updateHUD()}else{addReview(t);explodeVisual(t,false);removeTarget(t);combo=0;missed++;$('feedback').textContent=`Chưa hoàn thành “${t.entry.word}”. Đã đưa vào Từ cần ôn. Không giới hạn số lần sai.`;updateHUD()}}
+function typeLetter(ch){if(!running)return;let t=activeTarget()||nearestTarget();if(!t){$('feedback').textContent='Chưa có khối mục tiêu. Chờ từ tiếp theo!';return}if(activeTargetId!==t.id)selectTarget(t);const word=[...t.entry.word],next=letterIndices(t.entry.word).find(i=>!t.revealed.has(i)&&!t.typed.has(i));if(next===undefined){$('feedback').textContent='Đã đủ chữ. Nhấn Enter để xác nhận!';return}const expected=word[next];if(ch.toLowerCase()!==expected.toLowerCase()){const slot=t.el.querySelector(`.letter-slot[data-index="${next}"]`);if(slot){slot.textContent=ch.toUpperCase();slot.classList.add('wrong-letter');clearTimeout(inputErrorTimer);inputErrorTimer=setTimeout(()=>{if(slot&&!t.typed.has(next)){slot.textContent='';slot.classList.remove('wrong-letter')}},550)}$('feedback').textContent=`Sai chữ “${ch.toUpperCase()}”. Hãy thử lại chữ tiếp theo.`;return}t.typed.add(next);const slot=t.el.querySelector(`.letter-slot[data-index="${next}"]`);if(slot){slot.textContent=expected;slot.classList.add('filled','letter-pop');slot.classList.remove('wrong-letter');/* The projectile animation measures and animates elements while iOS Safari
+   has the virtual keyboard open. Skip only this decorative effect on phones
+   to avoid triggering Safari's visual-viewport auto-scroll. Desktop is unchanged. */
+if(!window.matchMedia('(max-width:700px)').matches)launchLetter(slot,expected);
+setTimeout(()=>slot.classList.remove('letter-pop'),300)}const complete=letterIndices(t.entry.word).every(i=>t.revealed.has(i)||t.typed.has(i));$('feedback').textContent=complete?'Đã đủ chữ chính xác. Nhấn ENTER để bắn nổ!':`Đúng chữ ${expected.toUpperCase()} · ${t.typed.size+t.revealed.size}/${letterIndices(t.entry.word).length} ô`;}
 function undoLastLetter(){const t=activeTarget()||nearestTarget();if(!t)return;const last=[...t.typed].at(-1);if(last!==undefined){t.typed.delete(last);const slot=t.el.querySelector(`.letter-slot[data-index="${last}"]`);if(slot){slot.textContent='';slot.classList.remove('filled')}}}
 document.addEventListener('keydown',e=>{if(!running)return;if(e.target&&(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)||e.target.isContentEditable))return;if(e.key==='Enter'){e.preventDefault();confirmTarget();return}if(e.key==='Backspace'){e.preventDefault();undoLastLetter();return}if(e.key.length===1&&/[a-z0-9]/i.test(e.key)){e.preventDefault();typeLetter(e.key)}});
 const mobileLetter=$('mobileLetter');
 const mobileConfirm=$('mobileConfirm');
+/* Keep the same input node mounted and focused. Do not call focus() or scrollTo()
+   from the input event: iOS Safari can move the visual viewport and dismiss its keyboard. */
 mobileLetter.addEventListener('input',e=>{
  const field=e.currentTarget;
  const value=field.value;
@@ -67,6 +84,8 @@ mobileLetter.addEventListener('keydown',e=>{
  if(e.key==='Enter'){e.preventDefault();confirmTarget();e.currentTarget.value=''}
  else if(e.key==='Backspace'&&!e.currentTarget.value){e.preventDefault();undoLastLetter()}
 });
+/* A tap on the confirm button is a user gesture, so restore input focus synchronously
+   with preventScroll. This keeps the iOS keyboard available after confirmation. */
 mobileConfirm.addEventListener('click',()=>{
  confirmTarget();
  mobileLetter.focus({preventScroll:true});
